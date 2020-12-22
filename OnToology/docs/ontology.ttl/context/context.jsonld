@@ -25,6 +25,9 @@
     "Pattern" : {
       "@id" : "https://artss.rtu.lv/Pattern"
     },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
     "topObjectProperty" : {
       "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
       "@type" : "@id"
@@ -78,6 +81,9 @@
     "hasInputParameterValue" : {
       "@id" : "https://artss.rtu.lv/hasInputParameterValue",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     }
   }
 }

@@ -55,6 +55,10 @@
 <https://artss.rtu.lv/hasKeyword> <http://www.w3.org/2000/01/rdf-schema#range> <https://artss.rtu.lv/Keyword> .
 <https://artss.rtu.lv/hasKeyword> <http://www.w3.org/2000/01/rdf-schema#label> "hasKeyword"@lv .
 # 
+# https://artss.rtu.lv/keywor
+<https://artss.rtu.lv/keywor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://artss.rtu.lv/keywor> <http://www.w3.org/2000/01/rdf-schema#label> "keywor"@lv .
+# 
 # 
 # 
 # #################################################################
@@ -89,6 +93,14 @@
 <https://artss.rtu.lv/hasSolution> <http://www.w3.org/2000/01/rdf-schema#domain> <https://artss.rtu.lv/Pattern> .
 <https://artss.rtu.lv/hasSolution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://artss.rtu.lv/hasSolution> <http://www.w3.org/2000/01/rdf-schema#label> "hasSolution"@lv .
+# 
+# https://artss.rtu.lv/input
+<https://artss.rtu.lv/input> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://artss.rtu.lv/input> <http://www.w3.org/2000/01/rdf-schema#label> "input"@lv .
+# 
+# https://artss.rtu.lv/kpi
+<https://artss.rtu.lv/kpi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://artss.rtu.lv/kpi> <http://www.w3.org/2000/01/rdf-schema#label> "kpi"@lv .
 # 
 # 
 # 
@@ -151,6 +163,16 @@
 # #################################################################
 # 
 # 
+# https://artss.rtu.lv/Administrators
+<https://artss.rtu.lv/Administrators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Administrators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/Administrators> <http://www.w3.org/2000/01/rdf-schema#label> "Administrators"@lv .
+# 
+# https://artss.rtu.lv/AttalinatsDarbs
+<https://artss.rtu.lv/AttalinatsDarbs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/AttalinatsDarbs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/AttalinatsDarbs> <http://www.w3.org/2000/01/rdf-schema#label> "Attālināts darbs"@lv .
+# 
 # https://artss.rtu.lv/BrauktuvesStavoklaNovertejums
 <https://artss.rtu.lv/BrauktuvesStavoklaNovertejums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/BrauktuvesStavoklaNovertejums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
@@ -159,7 +181,7 @@
 # https://artss.rtu.lv/CERTZinojumuSkaits
 <https://artss.rtu.lv/CERTZinojumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/CERTZinojumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
-<https://artss.rtu.lv/CERTZinojumuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "CERT zinojumu skaits"@lv .
+<https://artss.rtu.lv/CERTZinojumuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "CERT ziņojumu skaits"@lv .
 # 
 # https://artss.rtu.lv/Celi
 <https://artss.rtu.lv/Celi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -197,6 +219,94 @@
 <https://artss.rtu.lv/DabasKatastrofas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
 <https://artss.rtu.lv/DabasKatastrofas> <http://www.w3.org/2000/01/rdf-schema#label> "Dabas katastrofas"@lv .
 # 
+# https://artss.rtu.lv/DarbaApstakli
+<https://artss.rtu.lv/DarbaApstakli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/DarbaApstakli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/DarbaApstakli> <http://www.w3.org/2000/01/rdf-schema#label> "Darba apstākļi"@lv .
+# 
+# https://artss.rtu.lv/DarbaIzpildesGrafiks
+<https://artss.rtu.lv/DarbaIzpildesGrafiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/DarbaIzpildesGrafiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/DarbaIzpildesGrafiks> <http://www.w3.org/2000/01/rdf-schema#label> "Darba izpildes grafiks"@lv .
+# 
+# https://artss.rtu.lv/DarbiniekuPsihologiskaUnFiziskaStavoklaPasliktinasanasSlimibasLapuSkaits
+<https://artss.rtu.lv/DarbiniekuPsihologiskaUnFiziskaStavoklaPasliktinasanasSlimibasLapuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/DarbiniekuPsihologiskaUnFiziskaStavoklaPasliktinasanasSlimibasLapuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/DarbiniekuPsihologiskaUnFiziskaStavoklaPasliktinasanasSlimibasLapuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "Darbinieku psiholoģiskā un fiziskā stāvokļa pasliktināšanās, slimības lapu skaits"@lv .
+# 
+# https://artss.rtu.lv/DatuDrosiba
+<https://artss.rtu.lv/DatuDrosiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/DatuDrosiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/DatuDrosiba> <https://artss.rtu.lv/hasProblem> "Veselības datu noplūde vai neatgriezenisks zudums var radīt būtisku kaitējumu pacientiem un to veselībai."@lv .
+<https://artss.rtu.lv/DatuDrosiba> <http://www.w3.org/2000/01/rdf-schema#label> "Datu drosiba"@lv .
+# 
+# https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/LietotajuDrauduLimenis> .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/Nodrosinat%2CKaSistemaTiekIzmantotasGrutiUzminamasUnGrutiUzlauzamasUnikalasParoles> .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/KompromitetuLietotajuKontuSkaits> .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/ParoluSkaitsKasIrPieejamsNopludinatoParoluSarakstos> .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/Parole> .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/ParolesNoturiba> .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasInputParameterValue> "Paroles garums"@lv .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasInputParameterValue> "Paroles sarežģītības kritēriji (mazie/lielie burti, cipari, simboli)"@lv .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasInputParameterValue> "Vai paroles ir atrodama nopludināto paroļu sarakstos"@lv .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasInputParameterValue> "Vairāku faktoru autentifikācijas statuss (ieslēgts/izslēgts)"@lv .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasProblem> "Viegli uzminamu un uzlaužamu paroļu veidošana, kā arī paroļu atkalizmantošana ir viens no biežākajiem cēloņiem sistēmas kontu kompromitēšanai."@lv .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasSolution> "Ieviest paroļu pārvaldnieku"@lv .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasSolution> "Izmantot vairāku faktoru autentifikāciju (multi factor authentication)"@lv .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasSolution> "Pārbaudīt paroles pret zināmām nedrošām parolēm (haveibeenpwned.com u.c.)"@lv .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <https://artss.rtu.lv/hasSolution> "Rādīt ieteikumus drošu paroļu veidošanai"@lv .
+<https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi> <http://www.w3.org/2000/01/rdf-schema#label> "Drošas paroles veidošana un pārbaude pacientu elektronisko datu aizsardzībai pret nesankcionētu piekļuvi"@lv .
+# 
+# https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/Sazina> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasInputParameter> <https://artss.rtu.lv/KomunikacijasRikuPieejamiba> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasInputParameter> <https://artss.rtu.lv/organizacijasNosacijumiAttiecibaUzKomunikaciju> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/KomunikacijasNotikumuSkaits> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/KomunikacijasNovertejums> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/SazinasIlgums> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/VidejaisZinojumaGarumsAtkaribaNoKonteksta> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/komunikacijaiPateretaisLaiks> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/KomunikacijasBiezums> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/KomunikacijasKlimats> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/KomunikacijasKonteksts> .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasGuideline> "efektīvas komunikācijas vadlīniju definēšana"@lv .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasInputParameterValue> "Pieejamo komunikācijas rīku apkopojums"@lv .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasInputParameterValue> "parametri kvalitatīvai komunikācijas sniegšanai"@lv .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasProblem> "attālināta darba kontekstā var būt mazāk acīmredzams, vai saziņa ir bieža, efektīva un piemērota"@lv .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <https://artss.rtu.lv/hasSolution> "uzņēmuma normu ieviešana par ieteicamo sapulces/ziņojuma apmaiņas biežumu, ziņojuma garumu atbilstoši kontekstam, sapulču ieteicamo ilgumu"@lv .
+<https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija> <http://www.w3.org/2000/01/rdf-schema#label> "Efektīvas komunikācijas klimats organizācijā"@lv .
+# 
+# https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/LietotajuDrauduLimenis> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/PieejasTiesibas> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/RezervesKopijas> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/DatiemTiekVeidotasRegularasRezervesKopijas%2CLaiTosVarAtjaunotProblemu%28datuBojasanasVaiZuduma%29Gadijuma> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/NodrosinatKaDatiemTiekKlatTikaiTasPersonas%2CKamSadaPieejaIrNepieciesama> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/LietotajuTiesibuParskatisanasBiezums> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/RezervesKopijuAtjaunosanasParbauzuBiezums> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/RezervesKopijuVeidosanasBiezums> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/GadijumuSkaits%2CKadDatiemTiekKlatNeautorizetiLietotaji> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/DatuDrosiba> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/LietotajuTiesibas> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/RezervesKopijas> .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasInputParameterValue> "Jaunākās rezerves kopijas datums" .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasInputParameterValue> "Lietotājam piešķirtās tiesības" .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasInputParameterValue> "Pēdējais rezerves kopijas atjaunošanas pārbaudes datums un rezultāts" .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasInputParameterValue> "Rezerves kopiju veidošanas intervāls" .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasInputParameterValue> "Vecākās rezerves kopijas datums" .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasProblem> "Veselības datu noplūde vai neatgriezenisks zudums var radīt būtisku kaitējumu pacientiem un to veselībai."@lv .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasSolution> "Veikt regulāru datu rezerves kopēšanu."@lv .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasSolution> "Veikt regulāru lietotāju tiesību pārskatīšanu, pārliecinoties, ka lietotājiem ir piešķirtas minimāli nepieciešamās lietotāju tiesības."@lv .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <https://artss.rtu.lv/hasSolution> "Veikt regulāru rezerves kopiju atjaunošanas pārbaudi."@lv .
+<https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas> <http://www.w3.org/2000/01/rdf-schema#label> "Ģimenes ārsta prakses datu drošības novērtējums - pieejas tiesības un rezerves kopijas"@lv .
+# 
 # https://artss.rtu.lv/IncidentuSkaits
 <https://artss.rtu.lv/IncidentuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/IncidentuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
@@ -213,6 +323,42 @@
 <https://artss.rtu.lv/Kalendars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
 <https://artss.rtu.lv/Kalendars> <http://www.w3.org/2000/01/rdf-schema#label> "Kalendars"@lv .
 # 
+# https://artss.rtu.lv/KompromitetuLietotajuKontuSkaits
+<https://artss.rtu.lv/KompromitetuLietotajuKontuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/KompromitetuLietotajuKontuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/KompromitetuLietotajuKontuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "Kompromitētu lietotāju kontu skaits"@lv .
+# 
+# https://artss.rtu.lv/KomunikacijasBiezums
+<https://artss.rtu.lv/KomunikacijasBiezums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/KomunikacijasBiezums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/KomunikacijasBiezums> <http://www.w3.org/2000/01/rdf-schema#label> "Komunikacijas biezums"@lv .
+# 
+# https://artss.rtu.lv/KomunikacijasKlimats
+<https://artss.rtu.lv/KomunikacijasKlimats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/KomunikacijasKlimats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/KomunikacijasKlimats> <http://www.w3.org/2000/01/rdf-schema#label> "Komunikacijas klimats"@lv .
+# 
+# https://artss.rtu.lv/KomunikacijasKonteksts
+<https://artss.rtu.lv/KomunikacijasKonteksts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/KomunikacijasKonteksts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/KomunikacijasKonteksts> <http://www.w3.org/2000/01/rdf-schema#label> "Komunikacijas konteksts"@lv .
+# 
+# https://artss.rtu.lv/KomunikacijasNotikumuSkaits
+<https://artss.rtu.lv/KomunikacijasNotikumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/KomunikacijasNotikumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/KomunikacijasNotikumuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "komunikācijas notikumu skaits"@lv .
+# 
+# https://artss.rtu.lv/KomunikacijasNovertejums
+<https://artss.rtu.lv/KomunikacijasNovertejums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/KomunikacijasNovertejums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/KomunikacijasNovertejums> <http://www.w3.org/2000/01/rdf-schema#comment> "(t.i. komunikācijā iesaistīto vērtējumu par komunikācijas noderīgumu, izmantoto rīku lietderīgumu u.tml.)"@lv .
+<https://artss.rtu.lv/KomunikacijasNovertejums> <http://www.w3.org/2000/01/rdf-schema#label> "Komunikācijas novērtējums"@lv .
+# 
+# https://artss.rtu.lv/KomunikacijasRikuPieejamiba
+<https://artss.rtu.lv/KomunikacijasRikuPieejamiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/KomunikacijasRikuPieejamiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/InputParameter> .
+<https://artss.rtu.lv/KomunikacijasRikuPieejamiba> <http://www.w3.org/2000/01/rdf-schema#label> "Komunikacijas riku pieejamiba"@lv .
+# 
 # https://artss.rtu.lv/LaikaApstakluPrognoze
 <https://artss.rtu.lv/LaikaApstakluPrognoze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/LaikaApstakluPrognoze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
@@ -222,6 +368,34 @@
 <https://artss.rtu.lv/Laiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/Laiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
 <https://artss.rtu.lv/Laiks> <http://www.w3.org/2000/01/rdf-schema#label> "Laiks"@lv .
+# 
+# https://artss.rtu.lv/LietotajamPieskirtasTiesibas
+<https://artss.rtu.lv/LietotajamPieskirtasTiesibas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/LietotajamPieskirtasTiesibas> <http://www.w3.org/2000/01/rdf-schema#label> "Lietotājam piešķirtās tiesības"@lv .
+# 
+# https://artss.rtu.lv/Lietotajkonts
+<https://artss.rtu.lv/Lietotajkonts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Lietotajkonts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/InputParameter> .
+<https://artss.rtu.lv/Lietotajkonts> <http://www.w3.org/2000/01/rdf-schema#label> "Lietotājkonts"@lv .
+# 
+# https://artss.rtu.lv/LietotajuDrauduLimenis
+<https://artss.rtu.lv/LietotajuDrauduLimenis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/LietotajuDrauduLimenis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/LietotajuDrauduLimenis> <http://www.w3.org/2000/01/rdf-schema#label> "Lietotāju draudu līmenis"@lv .
+# 
+# https://artss.rtu.lv/LietotajuSaraksts
+<https://artss.rtu.lv/LietotajuSaraksts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/LietotajuSaraksts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/InputParameter> .
+<https://artss.rtu.lv/LietotajuSaraksts> <http://www.w3.org/2000/01/rdf-schema#label> "Lietotāju saraksts"@lv .
+# 
+# https://artss.rtu.lv/LietotajuTiesibas
+<https://artss.rtu.lv/LietotajuTiesibas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/LietotajuTiesibas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/LietotajuTiesibas> <http://www.w3.org/2000/01/rdf-schema#label> "Lietotāju tiesības"@lv .
+# 
+# https://artss.rtu.lv/LietotajuTiesibuParskatisanasBiezums
+<https://artss.rtu.lv/LietotajuTiesibuParskatisanasBiezums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/LietotajuTiesibuParskatisanasBiezums> <http://www.w3.org/2000/01/rdf-schema#label> "Lietotāju tiesību pārskatīšanas biežums"@lv .
 # 
 # https://artss.rtu.lv/NedelasDiena
 <https://artss.rtu.lv/NedelasDiena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -233,35 +407,183 @@
 <https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
 <https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla> <http://www.w3.org/2000/01/rdf-schema#label> "Negadijumu skaits del neapmierinosa brauktuves stavokla"@lv .
 # 
+# https://artss.rtu.lv/NeskaidribasUzdevumuIzpildeParpratumuSkaits
+<https://artss.rtu.lv/NeskaidribasUzdevumuIzpildeParpratumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NeskaidribasUzdevumuIzpildeParpratumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/NeskaidribasUzdevumuIzpildeParpratumuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "Neskaidrības uzdevumu izpildē, pārpratumu skaits"@lv .
+# 
 # https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi
 <https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
 <https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi> <http://www.w3.org/2000/01/rdf-schema#label> "Neveiksmīgs savienojumus skaits mēnesī"@lv .
+# 
+# https://artss.rtu.lv/NobideNoPlanotaDarbaIzpildesGrafikaUnKludasUzdevuma
+<https://artss.rtu.lv/NobideNoPlanotaDarbaIzpildesGrafikaUnKludasUzdevuma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NobideNoPlanotaDarbaIzpildesGrafikaUnKludasUzdevuma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/NobideNoPlanotaDarbaIzpildesGrafikaUnKludasUzdevuma> <http://www.w3.org/2000/01/rdf-schema#label> "Nobīde no plānota darba izpildes grafika un kļūdas uzdevumā"@lv .
 # 
 # https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli
 <https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
 <https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli> <http://www.w3.org/2000/01/rdf-schema#label> "Nodrosinat apmierinosu brauktuves stavokli"@lv .
 # 
+# https://artss.rtu.lv/NodrosinatLaikaUnKvalitativiIzpilditusUzdevumus
+<https://artss.rtu.lv/NodrosinatLaikaUnKvalitativiIzpilditusUzdevumus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NodrosinatLaikaUnKvalitativiIzpilditusUzdevumus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/NodrosinatLaikaUnKvalitativiIzpilditusUzdevumus> <http://www.w3.org/2000/01/rdf-schema#label> "Nodrošināt laikā un kvalitatīvi izpildītus uzdevumus."@lv .
+# 
+# https://artss.rtu.lv/NoverstArodslimibasPsihologiskasSlimibasUnIzdegsanu
+<https://artss.rtu.lv/NoverstArodslimibasPsihologiskasSlimibasUnIzdegsanu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NoverstArodslimibasPsihologiskasSlimibasUnIzdegsanu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/NoverstArodslimibasPsihologiskasSlimibasUnIzdegsanu> <http://www.w3.org/2000/01/rdf-schema#label> "Novērst arodslimības, psiholoģiskas slimības un izdegšanu."@lv .
+# 
+# https://artss.rtu.lv/NovertetVaiKomunikacijaIrEfektivaUnPiemerotaSituacijai
+<https://artss.rtu.lv/NovertetVaiKomunikacijaIrEfektivaUnPiemerotaSituacijai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NovertetVaiKomunikacijaIrEfektivaUnPiemerotaSituacijai> <http://www.w3.org/2000/01/rdf-schema#label> "Novertet vai komunikacija ir efektiva un piemerota situacijai"@lv .
+# 
 # https://artss.rtu.lv/Pandemija
 <https://artss.rtu.lv/Pandemija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/Pandemija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
 <https://artss.rtu.lv/Pandemija> <http://www.w3.org/2000/01/rdf-schema#label> "Pandēmija"@lv .
+# 
+# https://artss.rtu.lv/Parole
+<https://artss.rtu.lv/Parole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Parole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/Parole> <http://www.w3.org/2000/01/rdf-schema#label> "Parole"@lv .
+# 
+# https://artss.rtu.lv/ParolesNoturiba
+<https://artss.rtu.lv/ParolesNoturiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/ParolesNoturiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/ParolesNoturiba> <http://www.w3.org/2000/01/rdf-schema#label> "Paroles noturība"@lv .
+# 
+# https://artss.rtu.lv/ParoluSkaitsKasIrPieejamsNopludinatoParoluSarakstos
+<https://artss.rtu.lv/ParoluSkaitsKasIrPieejamsNopludinatoParoluSarakstos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/ParoluSkaitsKasIrPieejamsNopludinatoParoluSarakstos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/ParoluSkaitsKasIrPieejamsNopludinatoParoluSarakstos> <http://www.w3.org/2000/01/rdf-schema#label> "Paroļu skaits, kas ir pieejams nopludināto paroļu sarakstos"@lv .
+# 
+# https://artss.rtu.lv/ParpratumuSkaits
+<https://artss.rtu.lv/ParpratumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/ParpratumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/ParpratumuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "Pārpratumu skaits"@lv .
+# 
+# https://artss.rtu.lv/PartraukumuSkaits
+<https://artss.rtu.lv/PartraukumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/PartraukumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/PartraukumuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "Pārtraukumu skaits"@lv .
+# 
+# https://artss.rtu.lv/PieejamaTehnika
+<https://artss.rtu.lv/PieejamaTehnika> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/PieejamaTehnika> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/PieejamaTehnika> <http://www.w3.org/2000/01/rdf-schema#label> "Pieejamā tehnika"@lv .
+# 
+# https://artss.rtu.lv/PieejasTiesibas
+<https://artss.rtu.lv/PieejasTiesibas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/PieejasTiesibas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/PieejasTiesibas> <http://www.w3.org/2000/01/rdf-schema#label> "Pieejas tiesības"@lv .
+# 
+# https://artss.rtu.lv/PriviligetoLietotajuParskatisanasRegularitate
+<https://artss.rtu.lv/PriviligetoLietotajuParskatisanasRegularitate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/PriviligetoLietotajuParskatisanasRegularitate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/PriviligetoLietotajuParskatisanasRegularitate> <http://www.w3.org/2000/01/rdf-schema#label> "Priviliģēto lietotāju pārskatīšanas regularitāte"@lv .
+# 
+# https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/LietotajuDrauduLimenis> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/PieejasTiesibas> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/ParliecinatiesKaPriviligetasLietotajuTiesibasIrPieskirtasTikaiTiemCilvekiem%2CKamTasTiesamIrNepieciesamasUnNodrosinatMazakoPieejasTiesibuPrincipu.> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasInputParameter> <https://artss.rtu.lv/LietotajuSaraksts> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/PriviligetoLietotajuParskatisanasRegularitate> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/Administrators> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/LietotajuTiesibas> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/PriviligetsLietotajs> .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasInputParameterValue> "Lietotājam piešķirtās tiesības"@lv .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasProblem> "Kompromitēts priviliģētais lietotājs, pateicoties paaugstinātajām piekļuves tiesībām, var nodarīt būtisku kaitējumu sistēmas datu konfidencialitātei, integritātei un pieejamībai."@lv .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasSolution> "Aizsargāt priviliģētos lietotāju kontus ar vairāku faktoru autentifikāciju"@lv .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasSolution> "Ieviest mazāko pieejas tiesību (least privilege) principu, samazinot priviliģēto lietotāju skaitu"@lv .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <https://artss.rtu.lv/hasSolution> "Veikt regulāru pieejas tiesību pārskatīšanu"@lv .
+<https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums> <http://www.w3.org/2000/01/rdf-schema#label> "Priviliģēto lietotāju pārvaldības izvērtējums"@lv .
+# 
+# https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu
+<https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu> <http://www.w3.org/2000/01/rdf-schema#label> "Priviliģēto lietotāju skaita pret kopējo sistēmas lietotāju skaitu"@lv .
+# 
+# https://artss.rtu.lv/PriviligetsLietotajs
+<https://artss.rtu.lv/PriviligetsLietotajs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/PriviligetsLietotajs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/PriviligetsLietotajs> <http://www.w3.org/2000/01/rdf-schema#label> "Priviligets lietotajs"@lv .
 # 
 # https://artss.rtu.lv/ReakcijasLaiks
 <https://artss.rtu.lv/ReakcijasLaiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/ReakcijasLaiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
 <https://artss.rtu.lv/ReakcijasLaiks> <http://www.w3.org/2000/01/rdf-schema#label> "Reakcijas laiks"@lv .
 # 
+# https://artss.rtu.lv/RezervesKopijas
+<https://artss.rtu.lv/RezervesKopijas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/RezervesKopijas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/RezervesKopijas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/InputParameter> .
+<https://artss.rtu.lv/RezervesKopijas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/RezervesKopijas> <http://www.w3.org/2000/01/rdf-schema#label> "Rezerves kopijas"@lv .
+# 
+# https://artss.rtu.lv/RezervesKopijuAtjaunosanasParbauzuBiezums
+<https://artss.rtu.lv/RezervesKopijuAtjaunosanasParbauzuBiezums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/RezervesKopijuAtjaunosanasParbauzuBiezums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/RezervesKopijuAtjaunosanasParbauzuBiezums> <http://www.w3.org/2000/01/rdf-schema#label> "Rezerves kopiju atjaunošanas pārbaužu biežums"@lv .
+# 
+# https://artss.rtu.lv/RezervesKopijuVeidosanasBiezums
+<https://artss.rtu.lv/RezervesKopijuVeidosanasBiezums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/RezervesKopijuVeidosanasBiezums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/RezervesKopijuVeidosanasBiezums> <http://www.w3.org/2000/01/rdf-schema#label> "Rezerves kopiju veidošanas biežums"@lv .
+# 
 # https://artss.rtu.lv/Satiksme
 <https://artss.rtu.lv/Satiksme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/Satiksme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
 <https://artss.rtu.lv/Satiksme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
 # 
+# https://artss.rtu.lv/Sazina
+<https://artss.rtu.lv/Sazina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Sazina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/Sazina> <http://www.w3.org/2000/01/rdf-schema#label> "Saziņa, izmantojot tehnoloģiju rīkus"@lv .
+# 
+# https://artss.rtu.lv/SazinasIlgums
+<https://artss.rtu.lv/SazinasIlgums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/SazinasIlgums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/SazinasIlgums> <http://www.w3.org/2000/01/rdf-schema#label> "Saziņas ilgums"@lv .
+# 
+# https://artss.rtu.lv/SlimibasLapas
+<https://artss.rtu.lv/SlimibasLapas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/SlimibasLapas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/SlimibasLapas> <http://www.w3.org/2000/01/rdf-schema#label> "Slimibas lapas"@lv .
+# 
 # https://artss.rtu.lv/Steidzamiba
 <https://artss.rtu.lv/Steidzamiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/Steidzamiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
 <https://artss.rtu.lv/Steidzamiba> <http://www.w3.org/2000/01/rdf-schema#label> "Steidzamiba"@lv .
+# 
+# https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/DarbaIzpildesGrafiks> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/ParpratumuSkaits> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/SlimibasLapas> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/NodrosinatLaikaUnKvalitativiIzpilditusUzdevumus> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/NoverstArodslimibasPsihologiskasSlimibasUnIzdegsanu> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/DarbiniekuPsihologiskaUnFiziskaStavoklaPasliktinasanasSlimibasLapuSkaits> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/NeskaidribasUzdevumuIzpildeParpratumuSkaits> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/NobideNoPlanotaDarbaIzpildesGrafikaUnKludasUzdevuma> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/AttalinatsDarbs> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/DarbaApstakli> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/PieejamaTehnika> .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasProblem> "Komunikācijas problēmas."@lv .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasProblem> "Neergonomiska un nepiemērota darba vide."@lv .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasProblem> "Nestrādājoša pieejamā tehnika."@lv .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasSolution> "Nodrošināt ar ergonomisku darba vidi."@lv .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasSolution> "Nodrošināt darbinieku ar personīgo darba staciju un apmaksāt personīgo interneta pieslēgumu."@lv .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <https://artss.rtu.lv/hasSolution> "Nodrošināt kopējo uzņēmuma platformu attālinātajam darbam."@lv .
+<https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati> <http://www.w3.org/2000/01/rdf-schema#label> "Tehnikā risinājuma nodrošināšana valsts iestādes vai uzņēmuma darbinieku darba pienākumu izpildei strādājot attālināti."@lv .
 # 
 # https://artss.rtu.lv/UzbrukumuKalendars
 <https://artss.rtu.lv/UzbrukumuKalendars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -280,14 +602,132 @@
 <https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasSolution> "Veikt ļaunprātīgo lietotāju darbību, piemēram, potenciāli ļaunprātīgu DNS uzskaiti, un salīdzināt incidentu daudzumu atkarībā no nedēļas dienas un laika."@lv .
 <https://artss.rtu.lv/UzbrukumuKalendars> <http://www.w3.org/2000/01/rdf-schema#label> "Uzbrukumu kalendārs"@lv .
 # 
+# https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni
+<https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni> <http://www.w3.org/2000/01/rdf-schema#label> "Uzturēt augstu darba produktivitāti un savstarpējo komunikācijas līmeni"@lv .
+# 
+# https://artss.rtu.lv/VidejaisZinojumaGarumsAtkaribaNoKonteksta
+<https://artss.rtu.lv/VidejaisZinojumaGarumsAtkaribaNoKonteksta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/VidejaisZinojumaGarumsAtkaribaNoKonteksta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/VidejaisZinojumaGarumsAtkaribaNoKonteksta> <http://www.w3.org/2000/01/rdf-schema#label> "vidējais ziņojuma garums atkarībā no konteksta"@lv .
+# 
 # https://artss.rtu.lv/ZinojumuSkaits
 <https://artss.rtu.lv/ZinojumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/ZinojumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
 <https://artss.rtu.lv/ZinojumuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "Ziņojumu skaits"@lv .
 # 
+# https://artss.rtu.lv/apmierinatiba
+<https://artss.rtu.lv/apmierinatiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/apmierinatiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/apmierinatiba> <http://www.w3.org/2000/01/rdf-schema#label> "apmierinātība"@lv .
+# 
+# https://artss.rtu.lv/apmierinatibasUnDarbiniekuMainibasLimenis
+<https://artss.rtu.lv/apmierinatibasUnDarbiniekuMainibasLimenis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/apmierinatibasUnDarbiniekuMainibasLimenis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/apmierinatibasUnDarbiniekuMainibasLimenis> <http://www.w3.org/2000/01/rdf-schema#label> "apmierinatibas un darbinieku mainibas limenis"@lv .
+# 
+# https://artss.rtu.lv/aptaujasDatuRezultati
+<https://artss.rtu.lv/aptaujasDatuRezultati> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/aptaujasDatuRezultati> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/InputParameter> .
+<https://artss.rtu.lv/aptaujasDatuRezultati> <http://www.w3.org/2000/01/rdf-schema#label> "aptaujas datu rezultāti"@lv .
+# 
+# https://artss.rtu.lv/darbiniekuDarbaIzpildesNovertejums
+<https://artss.rtu.lv/darbiniekuDarbaIzpildesNovertejums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/darbiniekuDarbaIzpildesNovertejums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/InputParameter> .
+<https://artss.rtu.lv/darbiniekuDarbaIzpildesNovertejums> <http://www.w3.org/2000/01/rdf-schema#label> "darbinieku darba izpildes novērtējums"@lv .
+# 
+# https://artss.rtu.lv/darbiniekuMainibaOrganizacija
+<https://artss.rtu.lv/darbiniekuMainibaOrganizacija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/darbiniekuMainibaOrganizacija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/InputParameter> .
+<https://artss.rtu.lv/darbiniekuMainibaOrganizacija> <http://www.w3.org/2000/01/rdf-schema#label> "darbinieku mainība organizācijā"@lv .
+# 
+# https://artss.rtu.lv/darbiniekuMotivacija
+<https://artss.rtu.lv/darbiniekuMotivacija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/darbiniekuMotivacija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/darbiniekuMotivacija> <http://www.w3.org/2000/01/rdf-schema#label> "darbinieku motivācija"@lv .
+# 
+# https://artss.rtu.lv/komunikacijaiPateretaisLaiks
+<https://artss.rtu.lv/komunikacijaiPateretaisLaiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/komunikacijaiPateretaisLaiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/komunikacijaiPateretaisLaiks> <http://www.w3.org/2000/01/rdf-schema#label> "komunikacijai pateretais laiks"@lv .
+# 
+# https://artss.rtu.lv/motivacija
+<https://artss.rtu.lv/motivacija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/motivacija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/motivacija> <http://www.w3.org/2000/01/rdf-schema#label> "motivācija"@lv .
+# 
+# https://artss.rtu.lv/organizacijasNosacijumiAttiecibaUzKomunikaciju
+<https://artss.rtu.lv/organizacijasNosacijumiAttiecibaUzKomunikaciju> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/organizacijasNosacijumiAttiecibaUzKomunikaciju> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/InputParameter> .
+<https://artss.rtu.lv/organizacijasNosacijumiAttiecibaUzKomunikaciju> <http://www.w3.org/2000/01/rdf-schema#label> "organizācijas nosacījumi attiecībā uz komunikāciju"@lv .
+# 
+# https://artss.rtu.lv/regularasAptaujasPiespieduDistancesanasLaika
+<https://artss.rtu.lv/regularasAptaujasPiespieduDistancesanasLaika> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/regularasAptaujasPiespieduDistancesanasLaika> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/regularasAptaujasPiespieduDistancesanasLaika> <http://www.w3.org/2000/01/rdf-schema#label> "regulāras aptaujas piespiedu distancēšanās laikā"@lv .
+# 
+# https://artss.rtu.lv/vadibasKomunikacijasNovertesanaNoDarbiniekuAptaujasRezultatiem
+<https://artss.rtu.lv/vadibasKomunikacijasNovertesanaNoDarbiniekuAptaujasRezultatiem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/vadibasKomunikacijasNovertesanaNoDarbiniekuAptaujasRezultatiem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/vadibasKomunikacijasNovertesanaNoDarbiniekuAptaujasRezultatiem> <http://www.w3.org/2000/01/rdf-schema#label> "vadibas komunikacijas novertesana no darbinieku aptaujas rezultatiem"@lv .
+# 
+# https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/regularasAptaujasPiespieduDistancesanasLaika> .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/IzmeritDarbiniekuMotivacijasUnApmierinatibasLimeni%2CLaiVeiktuProfilaktiskiNepieciesamosPasakumus> .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasInputParameter> <https://artss.rtu.lv/aptaujasDatuRezultati> .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasInputParameter> <https://artss.rtu.lv/darbiniekuDarbaIzpildesNovertejums> .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasInputParameter> <https://artss.rtu.lv/darbiniekuMainibaOrganizacija> .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/apmierinatibasUnDarbiniekuMainibasLimenis> .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/motivacija> .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/vadibasKomunikacijasNovertesanaNoDarbiniekuAptaujasRezultatiem> .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasGuideline> "ieviest regulāras aptaujas un sekot rezultātiem"@lv .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasInputParameterValue> "Darbinieku mainības %"@lv .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasInputParameterValue> "darbinieku novērtējuma rezultāti."@lv .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasProblem> "neapmierināti un nemotivēti darbinieki rada zemāku produktivitāti un var izraisīt darbinieku aiziešanu no uzņēmuma. Darbinieku motivēšana distances darba apstākļos var būt ļoti sarežģīta"@lv .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <https://artss.rtu.lv/hasSolution> "darbinieku noskaņojuma mērīšana katru dienu pieslēdzoties komunikācijas sistēmai un regulāras aptaujas ar rezultātu apstrādi izmantojot algoritmu"@lv .
+<https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis> <http://www.w3.org/2000/01/rdf-schema#label> "Darbinieku motivacijas līmenis"@lv .
+# 
+# https://artss.rtu.lv/DatiemTiekVeidotasRegularasRezervesKopijas%2CLaiTosVarAtjaunotProblemu%28datuBojasanasVaiZuduma%29Gadijuma
+<https://artss.rtu.lv/DatiemTiekVeidotasRegularasRezervesKopijas%2CLaiTosVarAtjaunotProblemu%28datuBojasanasVaiZuduma%29Gadijuma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/DatiemTiekVeidotasRegularasRezervesKopijas%2CLaiTosVarAtjaunotProblemu%28datuBojasanasVaiZuduma%29Gadijuma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/DatiemTiekVeidotasRegularasRezervesKopijas%2CLaiTosVarAtjaunotProblemu%28datuBojasanasVaiZuduma%29Gadijuma> <http://www.w3.org/2000/01/rdf-schema#label> "Datiem tiek veidotas regulāras rezerves kopijas, lai tos var atjaunot problēmu (datu bojāšanas vai zuduma) gadījumā"@lv .
+# 
+# https://artss.rtu.lv/GadijumuSkaits%2CKadDatiemTiekKlatNeautorizetiLietotaji
+<https://artss.rtu.lv/GadijumuSkaits%2CKadDatiemTiekKlatNeautorizetiLietotaji> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/GadijumuSkaits%2CKadDatiemTiekKlatNeautorizetiLietotaji> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/GadijumuSkaits%2CKadDatiemTiekKlatNeautorizetiLietotaji> <http://www.w3.org/2000/01/rdf-schema#label> "Gadījumu skaits, kad datiem tiek klāt neautorizēti lietotāji"@lv .
+# 
+# https://artss.rtu.lv/IzmeritDarbiniekuMotivacijasUnApmierinatibasLimeni%2CLaiVeiktuProfilaktiskiNepieciesamosPasakumus
+<https://artss.rtu.lv/IzmeritDarbiniekuMotivacijasUnApmierinatibasLimeni%2CLaiVeiktuProfilaktiskiNepieciesamosPasakumus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/IzmeritDarbiniekuMotivacijasUnApmierinatibasLimeni%2CLaiVeiktuProfilaktiskiNepieciesamosPasakumus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/IzmeritDarbiniekuMotivacijasUnApmierinatibasLimeni%2CLaiVeiktuProfilaktiskiNepieciesamosPasakumus> <http://www.w3.org/2000/01/rdf-schema#label> "izmērīt darbinieku motivācijas un apmierinātības līmeni, lai veiktu profilaktiski nepieciešamos pasākumus"@lv .
+# 
+# https://artss.rtu.lv/LietotajaDrauduL%C4%ABmenis
+<https://artss.rtu.lv/LietotajaDrauduL%C4%ABmenis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/LietotajaDrauduL%C4%ABmenis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/LietotajaDrauduL%C4%ABmenis> <http://www.w3.org/2000/01/rdf-schema#label> "Lietotāja draudu līmenis"@lv .
+# 
+# https://artss.rtu.lv/Nodrosinat%2CKaSistemaTiekIzmantotasGrutiUzminamasUnGrutiUzlauzamasUnikalasParoles
+<https://artss.rtu.lv/Nodrosinat%2CKaSistemaTiekIzmantotasGrutiUzminamasUnGrutiUzlauzamasUnikalasParoles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Nodrosinat%2CKaSistemaTiekIzmantotasGrutiUzminamasUnGrutiUzlauzamasUnikalasParoles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/Nodrosinat%2CKaSistemaTiekIzmantotasGrutiUzminamasUnGrutiUzlauzamasUnikalasParoles> <http://www.w3.org/2000/01/rdf-schema#label> "Nodrošināt, ka sistēmā tiek izmantotas grūti uzminamas un grūti uzlaužamas unikālas paroles."@lv .
+# 
+# https://artss.rtu.lv/NodrosinatKaDatiemTiekKlatTikaiTasPersonas%2CKamSadaPieejaIrNepieciesama
+<https://artss.rtu.lv/NodrosinatKaDatiemTiekKlatTikaiTasPersonas%2CKamSadaPieejaIrNepieciesama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NodrosinatKaDatiemTiekKlatTikaiTasPersonas%2CKamSadaPieejaIrNepieciesama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/NodrosinatKaDatiemTiekKlatTikaiTasPersonas%2CKamSadaPieejaIrNepieciesama> <http://www.w3.org/2000/01/rdf-schema#label> "Nodrošināt, ka datiem tiek klāt tikai tās personas, kam šāda pieeja ir nepieciešama (need to know princips)."@lv .
+# 
 # https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema
 <https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
 <https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema> <http://www.w3.org/2000/01/rdf-schema#label> "Noteikt kad visbiezak notiek ļaunpratiga aktivitāte sistema"@lv .
+# 
+# https://artss.rtu.lv/ParliecinatiesKaPriviligetasLietotajuTiesibasIrPieskirtasTikaiTiemCilvekiem%2CKamTasTiesamIrNepieciesamasUnNodrosinatMazakoPieejasTiesibuPrincipu.
+<https://artss.rtu.lv/ParliecinatiesKaPriviligetasLietotajuTiesibasIrPieskirtasTikaiTiemCilvekiem%2CKamTasTiesamIrNepieciesamasUnNodrosinatMazakoPieejasTiesibuPrincipu.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/ParliecinatiesKaPriviligetasLietotajuTiesibasIrPieskirtasTikaiTiemCilvekiem%2CKamTasTiesamIrNepieciesamasUnNodrosinatMazakoPieejasTiesibuPrincipu.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/ParliecinatiesKaPriviligetasLietotajuTiesibasIrPieskirtasTikaiTiemCilvekiem%2CKamTasTiesamIrNepieciesamasUnNodrosinatMazakoPieejasTiesibuPrincipu.> <http://www.w3.org/2000/01/rdf-schema#label> "Pārliecināties, ka priviliģētās lietotāju tiesības ir piešķirtas tikai tiem cilvēkiem, kam tās tiešam ir nepieciešamas un nodrošināt mazāko pieejas tiesību (least privilege) principu."@lv .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

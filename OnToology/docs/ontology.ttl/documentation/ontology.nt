@@ -3,6 +3,21 @@
 # 
 # #################################################################
 # #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
 # #    Object Properties
 # #
 # #################################################################
@@ -83,6 +98,10 @@
 # #
 # #################################################################
 # 
+# 
+# http://www.w3.org/2002/07/owl#Thing
+<http://www.w3.org/2002/07/owl#Thing> <http://purl.org/dc/elements/1.1/creator> "Imants Zarembo"@lv .
+<http://www.w3.org/2002/07/owl#Thing> <http://purl.org/dc/elements/1.1/description> "VPP ARTSS šablonu repozitorija ontoloģija"@lv .
 # 
 # https://artss.rtu.lv/Capability
 <https://artss.rtu.lv/Capability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

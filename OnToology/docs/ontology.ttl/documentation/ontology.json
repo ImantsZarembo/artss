@@ -1,4 +1,20 @@
 [ {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "lv",
+    "@value" : "Imants Zarembo"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "lv",
+    "@value" : "VPP ARTSS šablonu repozitorija ontoloģija"
+  } ]
+}, {
   "@id" : "https://artss.rtu.lv/BrauktuvesStavoklaNovertejums",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
