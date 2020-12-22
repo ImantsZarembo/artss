@@ -1,0 +1,314 @@
+@prefix : <urn:webprotege:ontology:ddddb56f-e866-4d1d-a099-7ad8c5163048#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:ddddb56f-e866-4d1d-a099-7ad8c5163048> .
+
+<urn:webprotege:ontology:ddddb56f-e866-4d1d-a099-7ad8c5163048> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://artss.rtu.lv/hasContext
+<https://artss.rtu.lv/hasContext> rdf:type owl:ObjectProperty ;
+                                  rdfs:domain <https://artss.rtu.lv/Pattern> ;
+                                  rdfs:range <https://artss.rtu.lv/Context> ;
+                                  rdfs:label "hasContext"@lv .
+
+
+###  https://artss.rtu.lv/hasGoal
+<https://artss.rtu.lv/hasGoal> rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf owl:topObjectProperty ;
+                               rdfs:domain <https://artss.rtu.lv/Pattern> ;
+                               rdfs:range <https://artss.rtu.lv/Goal> ;
+                               rdfs:label "hasGoal"@lv .
+
+
+###  https://artss.rtu.lv/hasInputParameter
+<https://artss.rtu.lv/hasInputParameter> rdf:type owl:ObjectProperty ;
+                                         rdfs:domain <https://artss.rtu.lv/InputParameter> ;
+                                         rdfs:label "hasInputParameter"@lv .
+
+
+###  https://artss.rtu.lv/hasKPI
+<https://artss.rtu.lv/hasKPI> rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty ;
+                              rdfs:domain <https://artss.rtu.lv/Pattern> ;
+                              rdfs:range <https://artss.rtu.lv/KPI> ;
+                              rdfs:label "hasKPI"@lv .
+
+
+###  https://artss.rtu.lv/hasKeyword
+<https://artss.rtu.lv/hasKeyword> rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                  rdfs:domain <https://artss.rtu.lv/Pattern> ;
+                                  rdfs:range <https://artss.rtu.lv/Keyword> ;
+                                  rdfs:label "hasKeyword"@lv .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://artss.rtu.lv/hasGuideline
+<https://artss.rtu.lv/hasGuideline> rdf:type owl:DatatypeProperty ;
+                                    rdfs:domain <https://artss.rtu.lv/Pattern> ;
+                                    rdfs:range xsd:string ;
+                                    rdfs:label "hasGuideline"@lv .
+
+
+###  https://artss.rtu.lv/hasInputParameterValue
+<https://artss.rtu.lv/hasInputParameterValue> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <https://artss.rtu.lv/Pattern> ;
+                                              rdfs:range xsd:string ;
+                                              rdfs:label "hasInputParameterValue"@lv .
+
+
+###  https://artss.rtu.lv/hasProblem
+<https://artss.rtu.lv/hasProblem> rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                  rdfs:domain <https://artss.rtu.lv/Pattern> ;
+                                  rdfs:range xsd:string ;
+                                  rdfs:label "hasProblem"@lv .
+
+
+###  https://artss.rtu.lv/hasSolution
+<https://artss.rtu.lv/hasSolution> rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                   rdfs:domain <https://artss.rtu.lv/Pattern> ;
+                                   rdfs:range xsd:string ;
+                                   rdfs:label "hasSolution"@lv .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://artss.rtu.lv/Capability
+<https://artss.rtu.lv/Capability> rdf:type owl:Class ;
+                                  rdfs:subClassOf owl:Thing ;
+                                  rdfs:label "Capability"@lv .
+
+
+###  https://artss.rtu.lv/Context
+<https://artss.rtu.lv/Context> rdf:type owl:Class ;
+                               rdfs:label "Context"@lv .
+
+
+###  https://artss.rtu.lv/Goal
+<https://artss.rtu.lv/Goal> rdf:type owl:Class ;
+                            rdfs:label "Goal"@lv .
+
+
+###  https://artss.rtu.lv/InputParameter
+<https://artss.rtu.lv/InputParameter> rdf:type owl:Class ;
+                                      rdfs:label "Input Parameter"@lv .
+
+
+###  https://artss.rtu.lv/KPI
+<https://artss.rtu.lv/KPI> rdf:type owl:Class ;
+                           rdfs:label "KPI"@lv .
+
+
+###  https://artss.rtu.lv/Keyword
+<https://artss.rtu.lv/Keyword> rdf:type owl:Class ;
+                               rdfs:label "Keyword"@lv .
+
+
+###  https://artss.rtu.lv/Pattern
+<https://artss.rtu.lv/Pattern> rdf:type owl:Class ;
+                               rdfs:label "Pattern"@lv .
+
+
+###  https://artss.rtu.lv/Problem
+<https://artss.rtu.lv/Problem> rdf:type owl:Class ;
+                               rdfs:subClassOf owl:Thing ;
+                               rdfs:label "Problem"@lv .
+
+
+###  https://artss.rtu.lv/Solution
+<https://artss.rtu.lv/Solution> rdf:type owl:Class ;
+                                rdfs:subClassOf owl:Thing ;
+                                rdfs:label "Solution"@lv .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://artss.rtu.lv/BrauktuvesStavoklaNovertejums
+<https://artss.rtu.lv/BrauktuvesStavoklaNovertejums> rdf:type owl:NamedIndividual ,
+                                                              <https://artss.rtu.lv/Context> ;
+                                                     rdfs:label "Brauktuves stāvokļa novērtējums"@lv .
+
+
+###  https://artss.rtu.lv/CERTZinojumuSkaits
+<https://artss.rtu.lv/CERTZinojumuSkaits> rdf:type owl:NamedIndividual ,
+                                                   <https://artss.rtu.lv/KPI> ;
+                                          rdfs:label "CERT zinojumu skaits"@lv .
+
+
+###  https://artss.rtu.lv/Celi
+<https://artss.rtu.lv/Celi> rdf:type owl:NamedIndividual ,
+                                     <https://artss.rtu.lv/Keyword> ;
+                            rdfs:label "Celi"@lv .
+
+
+###  https://artss.rtu.lv/CeluUzturesana
+<https://artss.rtu.lv/CeluUzturesana> rdf:type owl:NamedIndividual ,
+                                               <https://artss.rtu.lv/Pattern> ;
+                                      <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/BrauktuvesStavoklaNovertejums> ,
+                                                                        <https://artss.rtu.lv/DabasApstakli> ,
+                                                                        <https://artss.rtu.lv/DabasKatastrofas> ,
+                                                                        <https://artss.rtu.lv/LaikaApstakluPrognoze> ,
+                                                                        <https://artss.rtu.lv/Pandemija> ,
+                                                                        <https://artss.rtu.lv/Satiksme> ;
+                                      <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli> ;
+                                      <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/IzpildesLaiks> ,
+                                                                    <https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla> ,
+                                                                    <https://artss.rtu.lv/ReakcijasLaiks> ,
+                                                                    <https://artss.rtu.lv/ZinojumuSkaits> ;
+                                      <https://artss.rtu.lv/hasProblem> "Ceļu uzturēšanas darbi jāveic savlaicīgi, lai minimizētu negadījumu skaitu. Vienlaicīgi remondarbiem jābūt saskaņotiem ar satiksmi, lai efektīvāk veikt ceļa uzturēšanu un netraucētu satiksmei." ;
+                                      <https://artss.rtu.lv/hasSolution> "Pielāgot ceļu uzturēšanas darbus." ,
+                                                                         "Pielāgot maršrutu un satiksmi, pielietojot viedās ceļa zīmes." ,
+                                                                         "Pielāgot satiksmi operatīvi izsūtot brīdinājumus caur Waze un citiem informācijas kanāliem." ;
+                                      rdfs:label "Ceļu Uzturēšana"@lv ;
+                                      rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/celu-uzturesana> .
+
+
+###  https://artss.rtu.lv/DabasApstakli
+<https://artss.rtu.lv/DabasApstakli> rdf:type owl:NamedIndividual ,
+                                              <https://artss.rtu.lv/Context> ;
+                                     rdfs:label "Dabas apstākļi"@lv .
+
+
+###  https://artss.rtu.lv/DabasKatastrofas
+<https://artss.rtu.lv/DabasKatastrofas> rdf:type owl:NamedIndividual ,
+                                                 <https://artss.rtu.lv/Context> ;
+                                        rdfs:label "Dabas katastrofas"@lv .
+
+
+###  https://artss.rtu.lv/IncidentuSkaits
+<https://artss.rtu.lv/IncidentuSkaits> rdf:type owl:NamedIndividual ,
+                                                <https://artss.rtu.lv/KPI> ;
+                                       rdfs:label "Incidentu skaits"@lv ,
+                                                  """Incidentu skaits
+"""@lv .
+
+
+###  https://artss.rtu.lv/IzpildesLaiks
+<https://artss.rtu.lv/IzpildesLaiks> rdf:type owl:NamedIndividual ,
+                                              <https://artss.rtu.lv/KPI> ;
+                                     rdfs:label "Izpildes laiks"@lv .
+
+
+###  https://artss.rtu.lv/Kalendars
+<https://artss.rtu.lv/Kalendars> rdf:type owl:NamedIndividual ,
+                                          <https://artss.rtu.lv/Keyword> ;
+                                 rdfs:label "Kalendars"@lv .
+
+
+###  https://artss.rtu.lv/LaikaApstakluPrognoze
+<https://artss.rtu.lv/LaikaApstakluPrognoze> rdf:type owl:NamedIndividual ,
+                                                      <https://artss.rtu.lv/Context> ;
+                                             rdfs:label "Laika apstaklu prognoze"@lv .
+
+
+###  https://artss.rtu.lv/Laiks
+<https://artss.rtu.lv/Laiks> rdf:type owl:NamedIndividual ,
+                                      <https://artss.rtu.lv/Keyword> ;
+                             rdfs:label "Laiks"@lv .
+
+
+###  https://artss.rtu.lv/NedelasDiena
+<https://artss.rtu.lv/NedelasDiena> rdf:type owl:NamedIndividual ,
+                                             <https://artss.rtu.lv/InputParameter> ;
+                                    rdfs:label "Nedelas diena"@lv .
+
+
+###  https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla
+<https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla> rdf:type owl:NamedIndividual ,
+                                                                                   <https://artss.rtu.lv/KPI> ;
+                                                                          rdfs:label "Negadijumu skaits del neapmierinosa brauktuves stavokla"@lv .
+
+
+###  https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi
+<https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi> rdf:type owl:NamedIndividual ,
+                                                                   <https://artss.rtu.lv/KPI> ;
+                                                          rdfs:label "Neveiksmīgs savienojumus skaits mēnesī"@lv .
+
+
+###  https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli
+<https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli> rdf:type owl:NamedIndividual ,
+                                                                        <https://artss.rtu.lv/Goal> ;
+                                                               rdfs:label "Nodrosinat apmierinosu brauktuves stavokli"@lv .
+
+
+###  https://artss.rtu.lv/Pandemija
+<https://artss.rtu.lv/Pandemija> rdf:type owl:NamedIndividual ,
+                                          <https://artss.rtu.lv/Context> ;
+                                 rdfs:label "Pandēmija"@lv .
+
+
+###  https://artss.rtu.lv/ReakcijasLaiks
+<https://artss.rtu.lv/ReakcijasLaiks> rdf:type owl:NamedIndividual ,
+                                               <https://artss.rtu.lv/KPI> ;
+                                      rdfs:label "Reakcijas laiks"@lv .
+
+
+###  https://artss.rtu.lv/Satiksme
+<https://artss.rtu.lv/Satiksme> rdf:type owl:NamedIndividual ,
+                                         <https://artss.rtu.lv/Context> ,
+                                         <https://artss.rtu.lv/Keyword> .
+
+
+###  https://artss.rtu.lv/Steidzamiba
+<https://artss.rtu.lv/Steidzamiba> rdf:type owl:NamedIndividual ,
+                                            <https://artss.rtu.lv/Context> ;
+                                   rdfs:label "Steidzamiba"@lv .
+
+
+###  https://artss.rtu.lv/UzbrukumuKalendars
+<https://artss.rtu.lv/UzbrukumuKalendars> rdf:type owl:NamedIndividual ,
+                                                   <https://artss.rtu.lv/Pattern> ;
+                                          <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/Steidzamiba> ;
+                                          <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema> ;
+                                          <https://artss.rtu.lv/hasInputParameter> <https://artss.rtu.lv/NedelasDiena> ;
+                                          <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/CERTZinojumuSkaits> ,
+                                                                        <https://artss.rtu.lv/IncidentuSkaits> ,
+                                                                        <https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi> ;
+                                          <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/Kalendars> ,
+                                                                            <https://artss.rtu.lv/Laiks> ;
+                                          <https://artss.rtu.lv/hasGuideline> "Ir jāņem vērā arī valsts svētku brīvdienas, tādēļ ir būtiski apskatīt ne tikai nedēļas dienu, bet arī datumu."@lv ;
+                                          <https://artss.rtu.lv/hasInputParameterValue> """Darba dienas:
+
+Pirmdiena,
+Otrdiena,
+Trešdiena,
+Ceturtdiena,
+Piektdiena
+Brīvdienas:
+
+Sestdiena,
+Svētdiena"""@lv ;
+                                          <https://artss.rtu.lv/hasProblem> "Atkarībā no nedēļas dienas atšķiras ļaunprātīgo lietotāju aktivitāte."@lv ;
+                                          <https://artss.rtu.lv/hasSolution> "Veikt ļaunprātīgo lietotāju darbību, piemēram, potenciāli ļaunprātīgu DNS uzskaiti, un salīdzināt incidentu daudzumu atkarībā no nedēļas dienas un laika."@lv ;
+                                          rdfs:label "Uzbrukumu kalendārs"@lv .
+
+
+###  https://artss.rtu.lv/ZinojumuSkaits
+<https://artss.rtu.lv/ZinojumuSkaits> rdf:type owl:NamedIndividual ,
+                                               <https://artss.rtu.lv/KPI> ;
+                                      rdfs:label "Ziņojumu skaits"@lv .
+
+
+###  https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema
+<https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema> rdf:type owl:NamedIndividual ,
+                                                                                                <https://artss.rtu.lv/Goal> ;
+                                                                                       rdfs:label "Noteikt kad visbiezak notiek ļaunpratiga aktivitāte sistema"@lv .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
