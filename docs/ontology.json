@@ -15,6 +15,20 @@
     "@value" : "VPP ARTSS šablonu repozitorija ontoloģija"
   } ]
 }, {
+  "@id" : "https://artss.rtu.lv/Administrators",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Administrators"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/AttalinatsDarbs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Attālināts darbs"
+  } ]
+}, {
   "@id" : "https://artss.rtu.lv/BrauktuvesStavoklaNovertejums",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -26,7 +40,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "lv",
-    "@value" : "CERT zinojumu skaits"
+    "@value" : "CERT ziņojumu skaits"
   } ]
 }, {
   "@id" : "https://artss.rtu.lv/Capability",
@@ -112,6 +126,263 @@
     "@value" : "Dabas katastrofas"
   } ]
 }, {
+  "@id" : "https://artss.rtu.lv/DarbaApstakli",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Darba apstākļi"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/DarbaIzpildesGrafiks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Darba izpildes grafiks"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Pattern" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Darbinieku motivacijas līmenis"
+  } ],
+  "https://artss.rtu.lv/hasContext" : [ {
+    "@id" : "https://artss.rtu.lv/regularasAptaujasPiespieduDistancesanasLaika"
+  } ],
+  "https://artss.rtu.lv/hasGoal" : [ {
+    "@id" : "https://artss.rtu.lv/IzmeritDarbiniekuMotivacijasUnApmierinatibasLimeni%2CLaiVeiktuProfilaktiskiNepieciesamosPasakumus"
+  } ],
+  "https://artss.rtu.lv/hasGuideline" : [ {
+    "@language" : "lv",
+    "@value" : "ieviest regulāras aptaujas un sekot rezultātiem"
+  } ],
+  "https://artss.rtu.lv/hasInputParameter" : [ {
+    "@id" : "https://artss.rtu.lv/aptaujasDatuRezultati"
+  }, {
+    "@id" : "https://artss.rtu.lv/darbiniekuDarbaIzpildesNovertejums"
+  }, {
+    "@id" : "https://artss.rtu.lv/darbiniekuMainibaOrganizacija"
+  } ],
+  "https://artss.rtu.lv/hasInputParameterValue" : [ {
+    "@language" : "lv",
+    "@value" : "Darbinieku mainības %"
+  }, {
+    "@language" : "lv",
+    "@value" : "darbinieku novērtējuma rezultāti."
+  } ],
+  "https://artss.rtu.lv/hasKPI" : [ {
+    "@id" : "https://artss.rtu.lv/apmierinatibasUnDarbiniekuMainibasLimenis"
+  }, {
+    "@id" : "https://artss.rtu.lv/motivacija"
+  }, {
+    "@id" : "https://artss.rtu.lv/vadibasKomunikacijasNovertesanaNoDarbiniekuAptaujasRezultatiem"
+  } ],
+  "https://artss.rtu.lv/hasProblem" : [ {
+    "@language" : "lv",
+    "@value" : "neapmierināti un nemotivēti darbinieki rada zemāku produktivitāti un var izraisīt darbinieku aiziešanu no uzņēmuma. Darbinieku motivēšana distances darba apstākļos var būt ļoti sarežģīta"
+  } ],
+  "https://artss.rtu.lv/hasSolution" : [ {
+    "@language" : "lv",
+    "@value" : "darbinieku noskaņojuma mērīšana katru dienu pieslēdzoties komunikācijas sistēmai un regulāras aptaujas ar rezultātu apstrādi izmantojot algoritmu"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/DarbiniekuPsihologiskaUnFiziskaStavoklaPasliktinasanasSlimibasLapuSkaits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Darbinieku psiholoģiskā un fiziskā stāvokļa pasliktināšanās, slimības lapu skaits"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/DatiemTiekVeidotasRegularasRezervesKopijas%2CLaiTosVarAtjaunotProblemu%28datuBojasanasVaiZuduma%29Gadijuma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Datiem tiek veidotas regulāras rezerves kopijas, lai tos var atjaunot problēmu (datu bojāšanas vai zuduma) gadījumā"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/DatuDrosiba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Datu drosiba"
+  } ],
+  "https://artss.rtu.lv/hasProblem" : [ {
+    "@language" : "lv",
+    "@value" : "Veselības datu noplūde vai neatgriezenisks zudums var radīt būtisku kaitējumu pacientiem un to veselībai."
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Pattern" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Drošas paroles veidošana un pārbaude pacientu elektronisko datu aizsardzībai pret nesankcionētu piekļuvi"
+  } ],
+  "https://artss.rtu.lv/hasContext" : [ {
+    "@id" : "https://artss.rtu.lv/LietotajuDrauduLimenis"
+  } ],
+  "https://artss.rtu.lv/hasGoal" : [ {
+    "@id" : "https://artss.rtu.lv/Nodrosinat%2CKaSistemaTiekIzmantotasGrutiUzminamasUnGrutiUzlauzamasUnikalasParoles"
+  } ],
+  "https://artss.rtu.lv/hasInputParameterValue" : [ {
+    "@language" : "lv",
+    "@value" : "Paroles garums"
+  }, {
+    "@language" : "lv",
+    "@value" : "Paroles sarežģītības kritēriji (mazie/lielie burti, cipari, simboli)"
+  }, {
+    "@language" : "lv",
+    "@value" : "Vai paroles ir atrodama nopludināto paroļu sarakstos"
+  }, {
+    "@language" : "lv",
+    "@value" : "Vairāku faktoru autentifikācijas statuss (ieslēgts/izslēgts)"
+  } ],
+  "https://artss.rtu.lv/hasKPI" : [ {
+    "@id" : "https://artss.rtu.lv/KompromitetuLietotajuKontuSkaits"
+  }, {
+    "@id" : "https://artss.rtu.lv/ParoluSkaitsKasIrPieejamsNopludinatoParoluSarakstos"
+  } ],
+  "https://artss.rtu.lv/hasKeyword" : [ {
+    "@id" : "https://artss.rtu.lv/Parole"
+  }, {
+    "@id" : "https://artss.rtu.lv/ParolesNoturiba"
+  } ],
+  "https://artss.rtu.lv/hasProblem" : [ {
+    "@language" : "lv",
+    "@value" : "Viegli uzminamu un uzlaužamu paroļu veidošana, kā arī paroļu atkalizmantošana ir viens no biežākajiem cēloņiem sistēmas kontu kompromitēšanai."
+  } ],
+  "https://artss.rtu.lv/hasSolution" : [ {
+    "@language" : "lv",
+    "@value" : "Ieviest paroļu pārvaldnieku"
+  }, {
+    "@language" : "lv",
+    "@value" : "Izmantot vairāku faktoru autentifikāciju (multi factor authentication)"
+  }, {
+    "@language" : "lv",
+    "@value" : "Pārbaudīt paroles pret zināmām nedrošām parolēm (haveibeenpwned.com u.c.)"
+  }, {
+    "@language" : "lv",
+    "@value" : "Rādīt ieteikumus drošu paroļu veidošanai"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Pattern" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Efektīvas komunikācijas klimats organizācijā"
+  } ],
+  "https://artss.rtu.lv/hasContext" : [ {
+    "@id" : "https://artss.rtu.lv/Sazina"
+  } ],
+  "https://artss.rtu.lv/hasGuideline" : [ {
+    "@language" : "lv",
+    "@value" : "efektīvas komunikācijas vadlīniju definēšana"
+  } ],
+  "https://artss.rtu.lv/hasInputParameter" : [ {
+    "@id" : "https://artss.rtu.lv/KomunikacijasRikuPieejamiba"
+  }, {
+    "@id" : "https://artss.rtu.lv/organizacijasNosacijumiAttiecibaUzKomunikaciju"
+  } ],
+  "https://artss.rtu.lv/hasInputParameterValue" : [ {
+    "@language" : "lv",
+    "@value" : "Pieejamo komunikācijas rīku apkopojums"
+  }, {
+    "@language" : "lv",
+    "@value" : "parametri kvalitatīvai komunikācijas sniegšanai"
+  } ],
+  "https://artss.rtu.lv/hasKPI" : [ {
+    "@id" : "https://artss.rtu.lv/KomunikacijasNotikumuSkaits"
+  }, {
+    "@id" : "https://artss.rtu.lv/KomunikacijasNovertejums"
+  }, {
+    "@id" : "https://artss.rtu.lv/SazinasIlgums"
+  }, {
+    "@id" : "https://artss.rtu.lv/VidejaisZinojumaGarumsAtkaribaNoKonteksta"
+  }, {
+    "@id" : "https://artss.rtu.lv/komunikacijaiPateretaisLaiks"
+  } ],
+  "https://artss.rtu.lv/hasKeyword" : [ {
+    "@id" : "https://artss.rtu.lv/KomunikacijasBiezums"
+  }, {
+    "@id" : "https://artss.rtu.lv/KomunikacijasKlimats"
+  }, {
+    "@id" : "https://artss.rtu.lv/KomunikacijasKonteksts"
+  } ],
+  "https://artss.rtu.lv/hasProblem" : [ {
+    "@language" : "lv",
+    "@value" : "attālināta darba kontekstā var būt mazāk acīmredzams, vai saziņa ir bieža, efektīva un piemērota"
+  } ],
+  "https://artss.rtu.lv/hasSolution" : [ {
+    "@language" : "lv",
+    "@value" : "uzņēmuma normu ieviešana par ieteicamo sapulces/ziņojuma apmaiņas biežumu, ziņojuma garumu atbilstoši kontekstam, sapulču ieteicamo ilgumu"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/GadijumuSkaits%2CKadDatiemTiekKlatNeautorizetiLietotaji",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Gadījumu skaits, kad datiem tiek klāt neautorizēti lietotāji"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Pattern" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Ģimenes ārsta prakses datu drošības novērtējums - pieejas tiesības un rezerves kopijas"
+  } ],
+  "https://artss.rtu.lv/hasContext" : [ {
+    "@id" : "https://artss.rtu.lv/LietotajuDrauduLimenis"
+  }, {
+    "@id" : "https://artss.rtu.lv/PieejasTiesibas"
+  }, {
+    "@id" : "https://artss.rtu.lv/RezervesKopijas"
+  } ],
+  "https://artss.rtu.lv/hasGoal" : [ {
+    "@id" : "https://artss.rtu.lv/DatiemTiekVeidotasRegularasRezervesKopijas%2CLaiTosVarAtjaunotProblemu%28datuBojasanasVaiZuduma%29Gadijuma"
+  }, {
+    "@id" : "https://artss.rtu.lv/NodrosinatKaDatiemTiekKlatTikaiTasPersonas%2CKamSadaPieejaIrNepieciesama"
+  } ],
+  "https://artss.rtu.lv/hasInputParameterValue" : [ {
+    "@value" : "Jaunākās rezerves kopijas datums"
+  }, {
+    "@value" : "Lietotājam piešķirtās tiesības"
+  }, {
+    "@value" : "Pēdējais rezerves kopijas atjaunošanas pārbaudes datums un rezultāts"
+  }, {
+    "@value" : "Rezerves kopiju veidošanas intervāls"
+  }, {
+    "@value" : "Vecākās rezerves kopijas datums"
+  } ],
+  "https://artss.rtu.lv/hasKPI" : [ {
+    "@id" : "https://artss.rtu.lv/LietotajuTiesibuParskatisanasBiezums"
+  }, {
+    "@id" : "https://artss.rtu.lv/RezervesKopijuAtjaunosanasParbauzuBiezums"
+  }, {
+    "@id" : "https://artss.rtu.lv/RezervesKopijuVeidosanasBiezums"
+  }, {
+    "@id" : "https://artss.rtu.lv/GadijumuSkaits%2CKadDatiemTiekKlatNeautorizetiLietotaji"
+  } ],
+  "https://artss.rtu.lv/hasKeyword" : [ {
+    "@id" : "https://artss.rtu.lv/DatuDrosiba"
+  }, {
+    "@id" : "https://artss.rtu.lv/LietotajuTiesibas"
+  }, {
+    "@id" : "https://artss.rtu.lv/RezervesKopijas"
+  } ],
+  "https://artss.rtu.lv/hasProblem" : [ {
+    "@language" : "lv",
+    "@value" : "Veselības datu noplūde vai neatgriezenisks zudums var radīt būtisku kaitējumu pacientiem un to veselībai."
+  } ],
+  "https://artss.rtu.lv/hasSolution" : [ {
+    "@language" : "lv",
+    "@value" : "Veikt regulāru datu rezerves kopēšanu."
+  }, {
+    "@language" : "lv",
+    "@value" : "Veikt regulāru lietotāju tiesību pārskatīšanu, pārliecinoties, ka lietotājiem ir piešķirtas minimāli nepieciešamās lietotāju tiesības."
+  }, {
+    "@language" : "lv",
+    "@value" : "Veikt regulāru rezerves kopiju atjaunošanas pārbaudi."
+  } ]
+}, {
   "@id" : "https://artss.rtu.lv/Goal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -134,6 +405,13 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "lv",
     "@value" : "Input Parameter"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/IzmeritDarbiniekuMotivacijasUnApmierinatibasLimeni%2CLaiVeiktuProfilaktiskiNepieciesamosPasakumus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "izmērīt darbinieku motivācijas un apmierinātības līmeni, lai veiktu profilaktiski nepieciešamos pasākumus"
   } ]
 }, {
   "@id" : "https://artss.rtu.lv/IzpildesLaiks",
@@ -164,6 +442,59 @@
     "@value" : "Keyword"
   } ]
 }, {
+  "@id" : "https://artss.rtu.lv/KompromitetuLietotajuKontuSkaits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Kompromitētu lietotāju kontu skaits"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/KomunikacijasBiezums",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Komunikacijas biezums"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/KomunikacijasKlimats",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Komunikacijas klimats"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/KomunikacijasKonteksts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Komunikacijas konteksts"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/KomunikacijasNotikumuSkaits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "komunikācijas notikumu skaits"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/KomunikacijasNovertejums",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "lv",
+    "@value" : "(t.i. komunikācijā iesaistīto vērtējumu par komunikācijas noderīgumu, izmantoto rīku lietderīgumu u.tml.)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Komunikācijas novērtējums"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/KomunikacijasRikuPieejamiba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/InputParameter" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Komunikacijas riku pieejamiba"
+  } ]
+}, {
   "@id" : "https://artss.rtu.lv/LaikaApstakluPrognoze",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -176,6 +507,55 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "lv",
     "@value" : "Laiks"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/LietotajaDrauduL%C4%ABmenis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Lietotāja draudu līmenis"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/LietotajamPieskirtasTiesibas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Lietotājam piešķirtās tiesības"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Lietotajkonts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/InputParameter" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Lietotājkonts"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/LietotajuDrauduLimenis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Lietotāju draudu līmenis"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/LietotajuSaraksts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/InputParameter" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Lietotāju saraksts"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/LietotajuTiesibas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Lietotāju tiesības"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/LietotajuTiesibuParskatisanasBiezums",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Lietotāju tiesību pārskatīšanas biežums"
   } ]
 }, {
   "@id" : "https://artss.rtu.lv/NedelasDiena",
@@ -192,11 +572,32 @@
     "@value" : "Negadijumu skaits del neapmierinosa brauktuves stavokla"
   } ]
 }, {
+  "@id" : "https://artss.rtu.lv/NeskaidribasUzdevumuIzpildeParpratumuSkaits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Neskaidrības uzdevumu izpildē, pārpratumu skaits"
+  } ]
+}, {
   "@id" : "https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "lv",
     "@value" : "Neveiksmīgs savienojumus skaits mēnesī"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/NobideNoPlanotaDarbaIzpildesGrafikaUnKludasUzdevuma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Nobīde no plānota darba izpildes grafika un kļūdas uzdevumā"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Nodrosinat%2CKaSistemaTiekIzmantotasGrutiUzminamasUnGrutiUzlauzamasUnikalasParoles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Nodrošināt, ka sistēmā tiek izmantotas grūti uzminamas un grūti uzlaužamas unikālas paroles."
   } ]
 }, {
   "@id" : "https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli",
@@ -206,11 +607,39 @@
     "@value" : "Nodrosinat apmierinosu brauktuves stavokli"
   } ]
 }, {
+  "@id" : "https://artss.rtu.lv/NodrosinatKaDatiemTiekKlatTikaiTasPersonas%2CKamSadaPieejaIrNepieciesama",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Nodrošināt, ka datiem tiek klāt tikai tās personas, kam šāda pieeja ir nepieciešama (need to know princips)."
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/NodrosinatLaikaUnKvalitativiIzpilditusUzdevumus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Nodrošināt laikā un kvalitatīvi izpildītus uzdevumus."
+  } ]
+}, {
   "@id" : "https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "lv",
     "@value" : "Noteikt kad visbiezak notiek ļaunpratiga aktivitāte sistema"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/NoverstArodslimibasPsihologiskasSlimibasUnIzdegsanu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Novērst arodslimības, psiholoģiskas slimības un izdegšanu."
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/NovertetVaiKomunikacijaIrEfektivaUnPiemerotaSituacijai",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Novertet vai komunikacija ir efektiva un piemerota situacijai"
   } ]
 }, {
   "@id" : "https://artss.rtu.lv/Pandemija",
@@ -220,11 +649,136 @@
     "@value" : "Pandēmija"
   } ]
 }, {
+  "@id" : "https://artss.rtu.lv/ParliecinatiesKaPriviligetasLietotajuTiesibasIrPieskirtasTikaiTiemCilvekiem%2CKamTasTiesamIrNepieciesamasUnNodrosinatMazakoPieejasTiesibuPrincipu.",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Pārliecināties, ka priviliģētās lietotāju tiesības ir piešķirtas tikai tiem cilvēkiem, kam tās tiešam ir nepieciešamas un nodrošināt mazāko pieejas tiesību (least privilege) principu."
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Parole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Parole"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/ParolesNoturiba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Paroles noturība"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/ParoluSkaitsKasIrPieejamsNopludinatoParoluSarakstos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Paroļu skaits, kas ir pieejams nopludināto paroļu sarakstos"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/ParpratumuSkaits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Pārpratumu skaits"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/PartraukumuSkaits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Pārtraukumu skaits"
+  } ]
+}, {
   "@id" : "https://artss.rtu.lv/Pattern",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "lv",
     "@value" : "Pattern"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/PieejamaTehnika",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Pieejamā tehnika"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/PieejasTiesibas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Pieejas tiesības"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/PriviligetoLietotajuParskatisanasRegularitate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Priviliģēto lietotāju pārskatīšanas regularitāte"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Pattern" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Priviliģēto lietotāju pārvaldības izvērtējums"
+  } ],
+  "https://artss.rtu.lv/hasContext" : [ {
+    "@id" : "https://artss.rtu.lv/LietotajuDrauduLimenis"
+  }, {
+    "@id" : "https://artss.rtu.lv/PieejasTiesibas"
+  } ],
+  "https://artss.rtu.lv/hasGoal" : [ {
+    "@id" : "https://artss.rtu.lv/ParliecinatiesKaPriviligetasLietotajuTiesibasIrPieskirtasTikaiTiemCilvekiem%2CKamTasTiesamIrNepieciesamasUnNodrosinatMazakoPieejasTiesibuPrincipu."
+  } ],
+  "https://artss.rtu.lv/hasInputParameter" : [ {
+    "@id" : "https://artss.rtu.lv/LietotajuSaraksts"
+  } ],
+  "https://artss.rtu.lv/hasInputParameterValue" : [ {
+    "@language" : "lv",
+    "@value" : "Lietotājam piešķirtās tiesības"
+  } ],
+  "https://artss.rtu.lv/hasKPI" : [ {
+    "@id" : "https://artss.rtu.lv/PriviligetoLietotajuParskatisanasRegularitate"
+  }, {
+    "@id" : "https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu"
+  } ],
+  "https://artss.rtu.lv/hasKeyword" : [ {
+    "@id" : "https://artss.rtu.lv/Administrators"
+  }, {
+    "@id" : "https://artss.rtu.lv/LietotajuTiesibas"
+  }, {
+    "@id" : "https://artss.rtu.lv/PriviligetsLietotajs"
+  } ],
+  "https://artss.rtu.lv/hasProblem" : [ {
+    "@language" : "lv",
+    "@value" : "Kompromitēts priviliģētais lietotājs, pateicoties paaugstinātajām piekļuves tiesībām, var nodarīt būtisku kaitējumu sistēmas datu konfidencialitātei, integritātei un pieejamībai."
+  } ],
+  "https://artss.rtu.lv/hasSolution" : [ {
+    "@language" : "lv",
+    "@value" : "Aizsargāt priviliģētos lietotāju kontus ar vairāku faktoru autentifikāciju"
+  }, {
+    "@language" : "lv",
+    "@value" : "Ieviest mazāko pieejas tiesību (least privilege) principu, samazinot priviliģēto lietotāju skaitu"
+  }, {
+    "@language" : "lv",
+    "@value" : "Veikt regulāru pieejas tiesību pārskatīšanu"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Priviliģēto lietotāju skaita pret kopējo sistēmas lietotāju skaitu"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/PriviligetsLietotajs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Priviligets lietotajs"
   } ]
 }, {
   "@id" : "https://artss.rtu.lv/Problem",
@@ -244,8 +798,50 @@
     "@value" : "Reakcijas laiks"
   } ]
 }, {
+  "@id" : "https://artss.rtu.lv/RezervesKopijas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context", "https://artss.rtu.lv/InputParameter", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Rezerves kopijas"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/RezervesKopijuAtjaunosanasParbauzuBiezums",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Rezerves kopiju atjaunošanas pārbaužu biežums"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/RezervesKopijuVeidosanasBiezums",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Rezerves kopiju veidošanas biežums"
+  } ]
+}, {
   "@id" : "https://artss.rtu.lv/Satiksme",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context", "https://artss.rtu.lv/Keyword" ]
+}, {
+  "@id" : "https://artss.rtu.lv/Sazina",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Saziņa, izmantojot tehnoloģiju rīkus"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/SazinasIlgums",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Saziņas ilgums"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/SlimibasLapas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Slimibas lapas"
+  } ]
 }, {
   "@id" : "https://artss.rtu.lv/Solution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -262,6 +858,61 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "lv",
     "@value" : "Steidzamiba"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Pattern" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Tehnikā risinājuma nodrošināšana valsts iestādes vai uzņēmuma darbinieku darba pienākumu izpildei strādājot attālināti."
+  } ],
+  "https://artss.rtu.lv/hasContext" : [ {
+    "@id" : "https://artss.rtu.lv/DarbaIzpildesGrafiks"
+  }, {
+    "@id" : "https://artss.rtu.lv/ParpratumuSkaits"
+  }, {
+    "@id" : "https://artss.rtu.lv/SlimibasLapas"
+  } ],
+  "https://artss.rtu.lv/hasGoal" : [ {
+    "@id" : "https://artss.rtu.lv/NodrosinatLaikaUnKvalitativiIzpilditusUzdevumus"
+  }, {
+    "@id" : "https://artss.rtu.lv/NoverstArodslimibasPsihologiskasSlimibasUnIzdegsanu"
+  }, {
+    "@id" : "https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni"
+  } ],
+  "https://artss.rtu.lv/hasKPI" : [ {
+    "@id" : "https://artss.rtu.lv/DarbiniekuPsihologiskaUnFiziskaStavoklaPasliktinasanasSlimibasLapuSkaits"
+  }, {
+    "@id" : "https://artss.rtu.lv/NeskaidribasUzdevumuIzpildeParpratumuSkaits"
+  }, {
+    "@id" : "https://artss.rtu.lv/NobideNoPlanotaDarbaIzpildesGrafikaUnKludasUzdevuma"
+  } ],
+  "https://artss.rtu.lv/hasKeyword" : [ {
+    "@id" : "https://artss.rtu.lv/AttalinatsDarbs"
+  }, {
+    "@id" : "https://artss.rtu.lv/DarbaApstakli"
+  }, {
+    "@id" : "https://artss.rtu.lv/PieejamaTehnika"
+  } ],
+  "https://artss.rtu.lv/hasProblem" : [ {
+    "@language" : "lv",
+    "@value" : "Komunikācijas problēmas."
+  }, {
+    "@language" : "lv",
+    "@value" : "Neergonomiska un nepiemērota darba vide."
+  }, {
+    "@language" : "lv",
+    "@value" : "Nestrādājoša pieejamā tehnika."
+  } ],
+  "https://artss.rtu.lv/hasSolution" : [ {
+    "@language" : "lv",
+    "@value" : "Nodrošināt ar ergonomisku darba vidi."
+  }, {
+    "@language" : "lv",
+    "@value" : "Nodrošināt darbinieku ar personīgo darba staciju un apmaksāt personīgo interneta pieslēgumu."
+  }, {
+    "@language" : "lv",
+    "@value" : "Nodrošināt kopējo uzņēmuma platformu attālinātajam darbam."
   } ]
 }, {
   "@id" : "https://artss.rtu.lv/UzbrukumuKalendars",
@@ -308,11 +959,67 @@
     "@value" : "Veikt ļaunprātīgo lietotāju darbību, piemēram, potenciāli ļaunprātīgu DNS uzskaiti, un salīdzināt incidentu daudzumu atkarībā no nedēļas dienas un laika."
   } ]
 }, {
+  "@id" : "https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Uzturēt augstu darba produktivitāti un savstarpējo komunikācijas līmeni"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/VidejaisZinojumaGarumsAtkaribaNoKonteksta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "vidējais ziņojuma garums atkarībā no konteksta"
+  } ]
+}, {
   "@id" : "https://artss.rtu.lv/ZinojumuSkaits",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "lv",
     "@value" : "Ziņojumu skaits"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/apmierinatiba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "apmierinātība"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/apmierinatibasUnDarbiniekuMainibasLimenis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "apmierinatibas un darbinieku mainibas limenis"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/aptaujasDatuRezultati",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/InputParameter" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "aptaujas datu rezultāti"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/darbiniekuDarbaIzpildesNovertejums",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/InputParameter" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "darbinieku darba izpildes novērtējums"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/darbiniekuMainibaOrganizacija",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/InputParameter" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "darbinieku mainība organizācijā"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/darbiniekuMotivacija",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "darbinieku motivācija"
   } ]
 }, {
   "@id" : "https://artss.rtu.lv/hasContext",
@@ -442,6 +1149,62 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/input",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "input"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/keywor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "keywor"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/komunikacijaiPateretaisLaiks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "komunikacijai pateretais laiks"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/kpi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "kpi"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/motivacija",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "motivācija"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/organizacijasNosacijumiAttiecibaUzKomunikaciju",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/InputParameter" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "organizācijas nosacījumi attiecībā uz komunikāciju"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/regularasAptaujasPiespieduDistancesanasLaika",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "regulāras aptaujas piespiedu distancēšanās laikā"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/vadibasKomunikacijasNovertesanaNoDarbiniekuAptaujasRezultatiem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "vadibas komunikacijas novertesana no darbinieku aptaujas rezultatiem"
   } ]
 }, {
   "@id" : "urn:webprotege:ontology:ddddb56f-e866-4d1d-a099-7ad8c5163048",
