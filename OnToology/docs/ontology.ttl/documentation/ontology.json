@@ -1,0 +1,433 @@
+[ {
+  "@id" : "https://artss.rtu.lv/BrauktuvesStavoklaNovertejums",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Brauktuves stāvokļa novērtējums"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/CERTZinojumuSkaits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "CERT zinojumu skaits"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Capability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Capability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Celi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Celi"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/CeluUzturesana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Pattern" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Ceļu Uzturēšana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://artss.rtu.lv/repository/web/lv/patterns/celu-uzturesana"
+  } ],
+  "https://artss.rtu.lv/hasContext" : [ {
+    "@id" : "https://artss.rtu.lv/BrauktuvesStavoklaNovertejums"
+  }, {
+    "@id" : "https://artss.rtu.lv/DabasApstakli"
+  }, {
+    "@id" : "https://artss.rtu.lv/DabasKatastrofas"
+  }, {
+    "@id" : "https://artss.rtu.lv/LaikaApstakluPrognoze"
+  }, {
+    "@id" : "https://artss.rtu.lv/Pandemija"
+  }, {
+    "@id" : "https://artss.rtu.lv/Satiksme"
+  } ],
+  "https://artss.rtu.lv/hasGoal" : [ {
+    "@id" : "https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli"
+  } ],
+  "https://artss.rtu.lv/hasKPI" : [ {
+    "@id" : "https://artss.rtu.lv/IzpildesLaiks"
+  }, {
+    "@id" : "https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla"
+  }, {
+    "@id" : "https://artss.rtu.lv/ReakcijasLaiks"
+  }, {
+    "@id" : "https://artss.rtu.lv/ZinojumuSkaits"
+  } ],
+  "https://artss.rtu.lv/hasProblem" : [ {
+    "@value" : "Ceļu uzturēšanas darbi jāveic savlaicīgi, lai minimizētu negadījumu skaitu. Vienlaicīgi remondarbiem jābūt saskaņotiem ar satiksmi, lai efektīvāk veikt ceļa uzturēšanu un netraucētu satiksmei."
+  } ],
+  "https://artss.rtu.lv/hasSolution" : [ {
+    "@value" : "Pielāgot ceļu uzturēšanas darbus."
+  }, {
+    "@value" : "Pielāgot maršrutu un satiksmi, pielietojot viedās ceļa zīmes."
+  }, {
+    "@value" : "Pielāgot satiksmi operatīvi izsūtot brīdinājumus caur Waze un citiem informācijas kanāliem."
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Context",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Context"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/DabasApstakli",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Dabas apstākļi"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/DabasKatastrofas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Dabas katastrofas"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Goal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Goal"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/IncidentuSkaits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Incidentu skaits"
+  }, {
+    "@language" : "lv",
+    "@value" : "Incidentu skaits\n"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/InputParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Input Parameter"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/IzpildesLaiks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Izpildes laiks"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/KPI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "KPI"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Kalendars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Kalendars"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Keyword",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Keyword"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/LaikaApstakluPrognoze",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Laika apstaklu prognoze"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Laiks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Keyword" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Laiks"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/NedelasDiena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/InputParameter" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Nedelas diena"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Negadijumu skaits del neapmierinosa brauktuves stavokla"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Neveiksmīgs savienojumus skaits mēnesī"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Nodrosinat apmierinosu brauktuves stavokli"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Goal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Noteikt kad visbiezak notiek ļaunpratiga aktivitāte sistema"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Pandemija",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Pandēmija"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Pattern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Pattern"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Problem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Problem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/ReakcijasLaiks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Reakcijas laiks"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Satiksme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context", "https://artss.rtu.lv/Keyword" ]
+}, {
+  "@id" : "https://artss.rtu.lv/Solution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Solution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/Steidzamiba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Steidzamiba"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/UzbrukumuKalendars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/Pattern" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Uzbrukumu kalendārs"
+  } ],
+  "https://artss.rtu.lv/hasContext" : [ {
+    "@id" : "https://artss.rtu.lv/Steidzamiba"
+  } ],
+  "https://artss.rtu.lv/hasGoal" : [ {
+    "@id" : "https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema"
+  } ],
+  "https://artss.rtu.lv/hasGuideline" : [ {
+    "@language" : "lv",
+    "@value" : "Ir jāņem vērā arī valsts svētku brīvdienas, tādēļ ir būtiski apskatīt ne tikai nedēļas dienu, bet arī datumu."
+  } ],
+  "https://artss.rtu.lv/hasInputParameter" : [ {
+    "@id" : "https://artss.rtu.lv/NedelasDiena"
+  } ],
+  "https://artss.rtu.lv/hasInputParameterValue" : [ {
+    "@language" : "lv",
+    "@value" : "Darba dienas:\n\nPirmdiena,\nOtrdiena,\nTrešdiena,\nCeturtdiena,\nPiektdiena\nBrīvdienas:\n\nSestdiena,\nSvētdiena"
+  } ],
+  "https://artss.rtu.lv/hasKPI" : [ {
+    "@id" : "https://artss.rtu.lv/CERTZinojumuSkaits"
+  }, {
+    "@id" : "https://artss.rtu.lv/IncidentuSkaits"
+  }, {
+    "@id" : "https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi"
+  } ],
+  "https://artss.rtu.lv/hasKeyword" : [ {
+    "@id" : "https://artss.rtu.lv/Kalendars"
+  }, {
+    "@id" : "https://artss.rtu.lv/Laiks"
+  } ],
+  "https://artss.rtu.lv/hasProblem" : [ {
+    "@language" : "lv",
+    "@value" : "Atkarībā no nedēļas dienas atšķiras ļaunprātīgo lietotāju aktivitāte."
+  } ],
+  "https://artss.rtu.lv/hasSolution" : [ {
+    "@language" : "lv",
+    "@value" : "Veikt ļaunprātīgo lietotāju darbību, piemēram, potenciāli ļaunprātīgu DNS uzskaiti, un salīdzināt incidentu daudzumu atkarībā no nedēļas dienas un laika."
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/ZinojumuSkaits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://artss.rtu.lv/KPI" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "Ziņojumu skaits"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/hasContext",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://artss.rtu.lv/Pattern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "hasContext"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://artss.rtu.lv/Context"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/hasGoal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://artss.rtu.lv/Pattern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "hasGoal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://artss.rtu.lv/Goal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/hasGuideline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://artss.rtu.lv/Pattern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "hasGuideline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/hasInputParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://artss.rtu.lv/InputParameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "hasInputParameter"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/hasInputParameterValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://artss.rtu.lv/Pattern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "hasInputParameterValue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/hasKPI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://artss.rtu.lv/Pattern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "hasKPI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://artss.rtu.lv/KPI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/hasKeyword",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://artss.rtu.lv/Pattern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "hasKeyword"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://artss.rtu.lv/Keyword"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/hasProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://artss.rtu.lv/Pattern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "hasProblem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://artss.rtu.lv/hasSolution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://artss.rtu.lv/Pattern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "lv",
+    "@value" : "hasSolution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "urn:webprotege:ontology:ddddb56f-e866-4d1d-a099-7ad8c5163048",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+} ]
