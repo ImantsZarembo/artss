@@ -107,6 +107,15 @@
     
 
 
+    <!-- https://artss.rtu.lv/keywor -->
+
+
+    <owl:ObjectProperty rdf:about="https://artss.rtu.lv/keywor">
+        <rdfs:label xml:lang="lv">keywor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -161,6 +170,24 @@
         <rdfs:domain rdf:resource="https://artss.rtu.lv/Pattern"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="lv">hasSolution</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://artss.rtu.lv/input -->
+
+
+    <owl:DatatypeProperty rdf:about="https://artss.rtu.lv/input">
+        <rdfs:label xml:lang="lv">input</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://artss.rtu.lv/kpi -->
+
+
+    <owl:DatatypeProperty rdf:about="https://artss.rtu.lv/kpi">
+        <rdfs:label xml:lang="lv">kpi</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -283,6 +310,26 @@
     
 
 
+    <!-- https://artss.rtu.lv/Administrators -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/Administrators">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Administrators</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/AttalinatsDarbs -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/AttalinatsDarbs">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Attālināts darbs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://artss.rtu.lv/BrauktuvesStavoklaNovertejums -->
 
 
@@ -298,7 +345,7 @@
 
     <owl:NamedIndividual rdf:about="https://artss.rtu.lv/CERTZinojumuSkaits">
         <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
-        <rdfs:label xml:lang="lv">CERT zinojumu skaits</rdfs:label>
+        <rdfs:label xml:lang="lv">CERT ziņojumu skaits</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -359,6 +406,129 @@
     
 
 
+    <!-- https://artss.rtu.lv/DarbaApstakli -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/DarbaApstakli">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Darba apstākļi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/DarbaIzpildesGrafiks -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/DarbaIzpildesGrafiks">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
+        <rdfs:label xml:lang="lv">Darba izpildes grafiks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/DarbiniekuPsihologiskaUnFiziskaStavoklaPasliktinasanasSlimibasLapuSkaits -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/DarbiniekuPsihologiskaUnFiziskaStavoklaPasliktinasanasSlimibasLapuSkaits">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Darbinieku psiholoģiskā un fiziskā stāvokļa pasliktināšanās, slimības lapu skaits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/DatuDrosiba -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/DatuDrosiba">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <artss:hasProblem xml:lang="lv">Veselības datu noplūde vai neatgriezenisks zudums var radīt būtisku kaitējumu pacientiem un to veselībai.</artss:hasProblem>
+        <rdfs:label xml:lang="lv">Datu drosiba</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/DrosasParolesVeidosanaUnParbaudePacientuElektroniskoDatuAizsardzibaiPretNesankcionetuPiekluvi">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Pattern"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/LietotajuDrauduLimenis"/>
+        <artss:hasGoal rdf:resource="https://artss.rtu.lv/Nodrosinat%2CKaSistemaTiekIzmantotasGrutiUzminamasUnGrutiUzlauzamasUnikalasParoles"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/KompromitetuLietotajuKontuSkaits"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/ParoluSkaitsKasIrPieejamsNopludinatoParoluSarakstos"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/Parole"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/ParolesNoturiba"/>
+        <artss:hasInputParameterValue xml:lang="lv">Paroles garums</artss:hasInputParameterValue>
+        <artss:hasInputParameterValue xml:lang="lv">Paroles sarežģītības kritēriji (mazie/lielie burti, cipari, simboli)</artss:hasInputParameterValue>
+        <artss:hasInputParameterValue xml:lang="lv">Vai paroles ir atrodama nopludināto paroļu sarakstos</artss:hasInputParameterValue>
+        <artss:hasInputParameterValue xml:lang="lv">Vairāku faktoru autentifikācijas statuss (ieslēgts/izslēgts)</artss:hasInputParameterValue>
+        <artss:hasProblem xml:lang="lv">Viegli uzminamu un uzlaužamu paroļu veidošana, kā arī paroļu atkalizmantošana ir viens no biežākajiem cēloņiem sistēmas kontu kompromitēšanai.</artss:hasProblem>
+        <artss:hasSolution xml:lang="lv">Ieviest paroļu pārvaldnieku</artss:hasSolution>
+        <artss:hasSolution xml:lang="lv">Izmantot vairāku faktoru autentifikāciju (multi factor authentication)</artss:hasSolution>
+        <artss:hasSolution xml:lang="lv">Pārbaudīt paroles pret zināmām nedrošām parolēm (haveibeenpwned.com u.c.)</artss:hasSolution>
+        <artss:hasSolution xml:lang="lv">Rādīt ieteikumus drošu paroļu veidošanai</artss:hasSolution>
+        <rdfs:label xml:lang="lv">Drošas paroles veidošana un pārbaude pacientu elektronisko datu aizsardzībai pret nesankcionētu piekļuvi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/EfektivasKomunikacijasKlimatsOrganizacija">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Pattern"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/Sazina"/>
+        <artss:hasInputParameter rdf:resource="https://artss.rtu.lv/KomunikacijasRikuPieejamiba"/>
+        <artss:hasInputParameter rdf:resource="https://artss.rtu.lv/organizacijasNosacijumiAttiecibaUzKomunikaciju"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/KomunikacijasNotikumuSkaits"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/KomunikacijasNovertejums"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/SazinasIlgums"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/VidejaisZinojumaGarumsAtkaribaNoKonteksta"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/komunikacijaiPateretaisLaiks"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/KomunikacijasBiezums"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/KomunikacijasKlimats"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/KomunikacijasKonteksts"/>
+        <artss:hasGuideline xml:lang="lv">efektīvas komunikācijas vadlīniju definēšana</artss:hasGuideline>
+        <artss:hasInputParameterValue xml:lang="lv">Pieejamo komunikācijas rīku apkopojums</artss:hasInputParameterValue>
+        <artss:hasInputParameterValue xml:lang="lv">parametri kvalitatīvai komunikācijas sniegšanai</artss:hasInputParameterValue>
+        <artss:hasProblem xml:lang="lv">attālināta darba kontekstā var būt mazāk acīmredzams, vai saziņa ir bieža, efektīva un piemērota</artss:hasProblem>
+        <artss:hasSolution xml:lang="lv">uzņēmuma normu ieviešana par ieteicamo sapulces/ziņojuma apmaiņas biežumu, ziņojuma garumu atbilstoši kontekstam, sapulču ieteicamo ilgumu</artss:hasSolution>
+        <rdfs:label xml:lang="lv">Efektīvas komunikācijas klimats organizācijā</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Pattern"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/LietotajuDrauduLimenis"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/PieejasTiesibas"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/RezervesKopijas"/>
+        <artss:hasGoal rdf:resource="https://artss.rtu.lv/DatiemTiekVeidotasRegularasRezervesKopijas%2CLaiTosVarAtjaunotProblemu%28datuBojasanasVaiZuduma%29Gadijuma"/>
+        <artss:hasGoal rdf:resource="https://artss.rtu.lv/NodrosinatKaDatiemTiekKlatTikaiTasPersonas%2CKamSadaPieejaIrNepieciesama"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/LietotajuTiesibuParskatisanasBiezums"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/RezervesKopijuAtjaunosanasParbauzuBiezums"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/RezervesKopijuVeidosanasBiezums"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/GadijumuSkaits%2CKadDatiemTiekKlatNeautorizetiLietotaji"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/DatuDrosiba"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/LietotajuTiesibas"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/RezervesKopijas"/>
+        <artss:hasInputParameterValue>Jaunākās rezerves kopijas datums</artss:hasInputParameterValue>
+        <artss:hasInputParameterValue>Lietotājam piešķirtās tiesības</artss:hasInputParameterValue>
+        <artss:hasInputParameterValue>Pēdējais rezerves kopijas atjaunošanas pārbaudes datums un rezultāts</artss:hasInputParameterValue>
+        <artss:hasInputParameterValue>Rezerves kopiju veidošanas intervāls</artss:hasInputParameterValue>
+        <artss:hasInputParameterValue>Vecākās rezerves kopijas datums</artss:hasInputParameterValue>
+        <artss:hasProblem xml:lang="lv">Veselības datu noplūde vai neatgriezenisks zudums var radīt būtisku kaitējumu pacientiem un to veselībai.</artss:hasProblem>
+        <artss:hasSolution xml:lang="lv">Veikt regulāru datu rezerves kopēšanu.</artss:hasSolution>
+        <artss:hasSolution xml:lang="lv">Veikt regulāru lietotāju tiesību pārskatīšanu, pārliecinoties, ka lietotājiem ir piešķirtas minimāli nepieciešamās lietotāju tiesības.</artss:hasSolution>
+        <artss:hasSolution xml:lang="lv">Veikt regulāru rezerves kopiju atjaunošanas pārbaudi.</artss:hasSolution>
+        <rdfs:label xml:lang="lv">Ģimenes ārsta prakses datu drošības novērtējums - pieejas tiesības un rezerves kopijas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://artss.rtu.lv/IncidentuSkaits -->
 
 
@@ -391,6 +561,77 @@
     
 
 
+    <!-- https://artss.rtu.lv/KompromitetuLietotajuKontuSkaits -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/KompromitetuLietotajuKontuSkaits">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Kompromitētu lietotāju kontu skaits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/KomunikacijasBiezums -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/KomunikacijasBiezums">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Komunikacijas biezums</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/KomunikacijasKlimats -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/KomunikacijasKlimats">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Komunikacijas klimats</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/KomunikacijasKonteksts -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/KomunikacijasKonteksts">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Komunikacijas konteksts</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/KomunikacijasNotikumuSkaits -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/KomunikacijasNotikumuSkaits">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">komunikācijas notikumu skaits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/KomunikacijasNovertejums -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/KomunikacijasNovertejums">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:comment xml:lang="lv">(t.i. komunikācijā iesaistīto vērtējumu par komunikācijas noderīgumu, izmantoto rīku lietderīgumu u.tml.)</rdfs:comment>
+        <rdfs:label xml:lang="lv">Komunikācijas novērtējums</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/KomunikacijasRikuPieejamiba -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/KomunikacijasRikuPieejamiba">
+        <rdf:type rdf:resource="https://artss.rtu.lv/InputParameter"/>
+        <rdfs:label xml:lang="lv">Komunikacijas riku pieejamiba</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://artss.rtu.lv/LaikaApstakluPrognoze -->
 
 
@@ -407,6 +648,64 @@
     <owl:NamedIndividual rdf:about="https://artss.rtu.lv/Laiks">
         <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
         <rdfs:label xml:lang="lv">Laiks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/LietotajamPieskirtasTiesibas -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/LietotajamPieskirtasTiesibas">
+        <rdfs:label xml:lang="lv">Lietotājam piešķirtās tiesības</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/Lietotajkonts -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/Lietotajkonts">
+        <rdf:type rdf:resource="https://artss.rtu.lv/InputParameter"/>
+        <rdfs:label xml:lang="lv">Lietotājkonts</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/LietotajuDrauduLimenis -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/LietotajuDrauduLimenis">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
+        <rdfs:label xml:lang="lv">Lietotāju draudu līmenis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/LietotajuSaraksts -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/LietotajuSaraksts">
+        <rdf:type rdf:resource="https://artss.rtu.lv/InputParameter"/>
+        <rdfs:label xml:lang="lv">Lietotāju saraksts</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/LietotajuTiesibas -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/LietotajuTiesibas">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Lietotāju tiesības</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/LietotajuTiesibuParskatisanasBiezums -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/LietotajuTiesibuParskatisanasBiezums">
+        <rdfs:label xml:lang="lv">Lietotāju tiesību pārskatīšanas biežums</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -431,12 +730,32 @@
     
 
 
+    <!-- https://artss.rtu.lv/NeskaidribasUzdevumuIzpildeParpratumuSkaits -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/NeskaidribasUzdevumuIzpildeParpratumuSkaits">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Neskaidrības uzdevumu izpildē, pārpratumu skaits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi -->
 
 
     <owl:NamedIndividual rdf:about="https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi">
         <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
         <rdfs:label xml:lang="lv">Neveiksmīgs savienojumus skaits mēnesī</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/NobideNoPlanotaDarbaIzpildesGrafikaUnKludasUzdevuma -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/NobideNoPlanotaDarbaIzpildesGrafikaUnKludasUzdevuma">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Nobīde no plānota darba izpildes grafika un kļūdas uzdevumā</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -451,12 +770,165 @@
     
 
 
+    <!-- https://artss.rtu.lv/NodrosinatLaikaUnKvalitativiIzpilditusUzdevumus -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/NodrosinatLaikaUnKvalitativiIzpilditusUzdevumus">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Goal"/>
+        <rdfs:label xml:lang="lv">Nodrošināt laikā un kvalitatīvi izpildītus uzdevumus.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/NoverstArodslimibasPsihologiskasSlimibasUnIzdegsanu -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/NoverstArodslimibasPsihologiskasSlimibasUnIzdegsanu">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Goal"/>
+        <rdfs:label xml:lang="lv">Novērst arodslimības, psiholoģiskas slimības un izdegšanu.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/NovertetVaiKomunikacijaIrEfektivaUnPiemerotaSituacijai -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/NovertetVaiKomunikacijaIrEfektivaUnPiemerotaSituacijai">
+        <rdfs:label xml:lang="lv">Novertet vai komunikacija ir efektiva un piemerota situacijai</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://artss.rtu.lv/Pandemija -->
 
 
     <owl:NamedIndividual rdf:about="https://artss.rtu.lv/Pandemija">
         <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
         <rdfs:label xml:lang="lv">Pandēmija</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/Parole -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/Parole">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Parole</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/ParolesNoturiba -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/ParolesNoturiba">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Paroles noturība</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/ParoluSkaitsKasIrPieejamsNopludinatoParoluSarakstos -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/ParoluSkaitsKasIrPieejamsNopludinatoParoluSarakstos">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Paroļu skaits, kas ir pieejams nopludināto paroļu sarakstos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/ParpratumuSkaits -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/ParpratumuSkaits">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
+        <rdfs:label xml:lang="lv">Pārpratumu skaits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/PartraukumuSkaits -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/PartraukumuSkaits">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
+        <rdfs:label xml:lang="lv">Pārtraukumu skaits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/PieejamaTehnika -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/PieejamaTehnika">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Pieejamā tehnika</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/PieejasTiesibas -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/PieejasTiesibas">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
+        <rdfs:label xml:lang="lv">Pieejas tiesības</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/PriviligetoLietotajuParskatisanasRegularitate -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/PriviligetoLietotajuParskatisanasRegularitate">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Priviliģēto lietotāju pārskatīšanas regularitāte</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/PriviligetoLietotajuParvaldibasIzvertejums">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Pattern"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/LietotajuDrauduLimenis"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/PieejasTiesibas"/>
+        <artss:hasGoal rdf:resource="https://artss.rtu.lv/ParliecinatiesKaPriviligetasLietotajuTiesibasIrPieskirtasTikaiTiemCilvekiem%2CKamTasTiesamIrNepieciesamasUnNodrosinatMazakoPieejasTiesibuPrincipu."/>
+        <artss:hasInputParameter rdf:resource="https://artss.rtu.lv/LietotajuSaraksts"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/PriviligetoLietotajuParskatisanasRegularitate"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/Administrators"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/LietotajuTiesibas"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/PriviligetsLietotajs"/>
+        <artss:hasInputParameterValue xml:lang="lv">Lietotājam piešķirtās tiesības</artss:hasInputParameterValue>
+        <artss:hasProblem xml:lang="lv">Kompromitēts priviliģētais lietotājs, pateicoties paaugstinātajām piekļuves tiesībām, var nodarīt būtisku kaitējumu sistēmas datu konfidencialitātei, integritātei un pieejamībai.</artss:hasProblem>
+        <artss:hasSolution xml:lang="lv">Aizsargāt priviliģētos lietotāju kontus ar vairāku faktoru autentifikāciju</artss:hasSolution>
+        <artss:hasSolution xml:lang="lv">Ieviest mazāko pieejas tiesību (least privilege) principu, samazinot priviliģēto lietotāju skaitu</artss:hasSolution>
+        <artss:hasSolution xml:lang="lv">Veikt regulāru pieejas tiesību pārskatīšanu</artss:hasSolution>
+        <rdfs:label xml:lang="lv">Priviliģēto lietotāju pārvaldības izvērtējums</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Priviliģēto lietotāju skaita pret kopējo sistēmas lietotāju skaitu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/PriviligetsLietotajs -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/PriviligetsLietotajs">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Priviligets lietotajs</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -471,6 +943,38 @@
     
 
 
+    <!-- https://artss.rtu.lv/RezervesKopijas -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/RezervesKopijas">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
+        <rdf:type rdf:resource="https://artss.rtu.lv/InputParameter"/>
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">Rezerves kopijas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/RezervesKopijuAtjaunosanasParbauzuBiezums -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/RezervesKopijuAtjaunosanasParbauzuBiezums">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Rezerves kopiju atjaunošanas pārbaužu biežums</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/RezervesKopijuVeidosanasBiezums -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/RezervesKopijuVeidosanasBiezums">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Rezerves kopiju veidošanas biežums</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://artss.rtu.lv/Satiksme -->
 
 
@@ -481,12 +985,70 @@
     
 
 
+    <!-- https://artss.rtu.lv/Sazina -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/Sazina">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
+        <rdfs:label xml:lang="lv">Saziņa, izmantojot tehnoloģiju rīkus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/SazinasIlgums -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/SazinasIlgums">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Saziņas ilgums</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/SlimibasLapas -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/SlimibasLapas">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
+        <rdfs:label xml:lang="lv">Slimibas lapas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://artss.rtu.lv/Steidzamiba -->
 
 
     <owl:NamedIndividual rdf:about="https://artss.rtu.lv/Steidzamiba">
         <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
         <rdfs:label xml:lang="lv">Steidzamiba</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/TehnikaRisinajumaNodrosinasanaValstsIestadesVaiUznemumaDarbiniekuDarbaPienakumuIzpildeiStradajotAttalinati">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Pattern"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/DarbaIzpildesGrafiks"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/ParpratumuSkaits"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/SlimibasLapas"/>
+        <artss:hasGoal rdf:resource="https://artss.rtu.lv/NodrosinatLaikaUnKvalitativiIzpilditusUzdevumus"/>
+        <artss:hasGoal rdf:resource="https://artss.rtu.lv/NoverstArodslimibasPsihologiskasSlimibasUnIzdegsanu"/>
+        <artss:hasGoal rdf:resource="https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/DarbiniekuPsihologiskaUnFiziskaStavoklaPasliktinasanasSlimibasLapuSkaits"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/NeskaidribasUzdevumuIzpildeParpratumuSkaits"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/NobideNoPlanotaDarbaIzpildesGrafikaUnKludasUzdevuma"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/AttalinatsDarbs"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/DarbaApstakli"/>
+        <artss:hasKeyword rdf:resource="https://artss.rtu.lv/PieejamaTehnika"/>
+        <artss:hasProblem xml:lang="lv">Komunikācijas problēmas.</artss:hasProblem>
+        <artss:hasProblem xml:lang="lv">Neergonomiska un nepiemērota darba vide.</artss:hasProblem>
+        <artss:hasProblem xml:lang="lv">Nestrādājoša pieejamā tehnika.</artss:hasProblem>
+        <artss:hasSolution xml:lang="lv">Nodrošināt ar ergonomisku darba vidi.</artss:hasSolution>
+        <artss:hasSolution xml:lang="lv">Nodrošināt darbinieku ar personīgo darba staciju un apmaksāt personīgo interneta pieslēgumu.</artss:hasSolution>
+        <artss:hasSolution xml:lang="lv">Nodrošināt kopējo uzņēmuma platformu attālinātajam darbam.</artss:hasSolution>
+        <rdfs:label xml:lang="lv">Tehnikā risinājuma nodrošināšana valsts iestādes vai uzņēmuma darbinieku darba pienākumu izpildei strādājot attālināti.</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -523,6 +1085,26 @@ Svētdiena</artss:hasInputParameterValue>
     
 
 
+    <!-- https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Goal"/>
+        <rdfs:label xml:lang="lv">Uzturēt augstu darba produktivitāti un savstarpējo komunikācijas līmeni</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/VidejaisZinojumaGarumsAtkaribaNoKonteksta -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/VidejaisZinojumaGarumsAtkaribaNoKonteksta">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">vidējais ziņojuma garums atkarībā no konteksta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://artss.rtu.lv/ZinojumuSkaits -->
 
 
@@ -533,12 +1115,215 @@ Svētdiena</artss:hasInputParameterValue>
     
 
 
+    <!-- https://artss.rtu.lv/apmierinatiba -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/apmierinatiba">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">apmierinātība</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/apmierinatibasUnDarbiniekuMainibasLimenis -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/apmierinatibasUnDarbiniekuMainibasLimenis">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">apmierinatibas un darbinieku mainibas limenis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/aptaujasDatuRezultati -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/aptaujasDatuRezultati">
+        <rdf:type rdf:resource="https://artss.rtu.lv/InputParameter"/>
+        <rdfs:label xml:lang="lv">aptaujas datu rezultāti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/darbiniekuDarbaIzpildesNovertejums -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/darbiniekuDarbaIzpildesNovertejums">
+        <rdf:type rdf:resource="https://artss.rtu.lv/InputParameter"/>
+        <rdfs:label xml:lang="lv">darbinieku darba izpildes novērtējums</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/darbiniekuMainibaOrganizacija -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/darbiniekuMainibaOrganizacija">
+        <rdf:type rdf:resource="https://artss.rtu.lv/InputParameter"/>
+        <rdfs:label xml:lang="lv">darbinieku mainība organizācijā</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/darbiniekuMotivacija -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/darbiniekuMotivacija">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Keyword"/>
+        <rdfs:label xml:lang="lv">darbinieku motivācija</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/komunikacijaiPateretaisLaiks -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/komunikacijaiPateretaisLaiks">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">komunikacijai pateretais laiks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/motivacija -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/motivacija">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">motivācija</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/organizacijasNosacijumiAttiecibaUzKomunikaciju -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/organizacijasNosacijumiAttiecibaUzKomunikaciju">
+        <rdf:type rdf:resource="https://artss.rtu.lv/InputParameter"/>
+        <rdfs:label xml:lang="lv">organizācijas nosacījumi attiecībā uz komunikāciju</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/regularasAptaujasPiespieduDistancesanasLaika -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/regularasAptaujasPiespieduDistancesanasLaika">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
+        <rdfs:label xml:lang="lv">regulāras aptaujas piespiedu distancēšanās laikā</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/vadibasKomunikacijasNovertesanaNoDarbiniekuAptaujasRezultatiem -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/vadibasKomunikacijasNovertesanaNoDarbiniekuAptaujasRezultatiem">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">vadibas komunikacijas novertesana no darbinieku aptaujas rezultatiem</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/DarbiniekuMotivacijasL%C4%ABmenis">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Pattern"/>
+        <artss:hasContext rdf:resource="https://artss.rtu.lv/regularasAptaujasPiespieduDistancesanasLaika"/>
+        <artss:hasGoal rdf:resource="https://artss.rtu.lv/IzmeritDarbiniekuMotivacijasUnApmierinatibasLimeni%2CLaiVeiktuProfilaktiskiNepieciesamosPasakumus"/>
+        <artss:hasInputParameter rdf:resource="https://artss.rtu.lv/aptaujasDatuRezultati"/>
+        <artss:hasInputParameter rdf:resource="https://artss.rtu.lv/darbiniekuDarbaIzpildesNovertejums"/>
+        <artss:hasInputParameter rdf:resource="https://artss.rtu.lv/darbiniekuMainibaOrganizacija"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/apmierinatibasUnDarbiniekuMainibasLimenis"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/motivacija"/>
+        <artss:hasKPI rdf:resource="https://artss.rtu.lv/vadibasKomunikacijasNovertesanaNoDarbiniekuAptaujasRezultatiem"/>
+        <artss:hasGuideline xml:lang="lv">ieviest regulāras aptaujas un sekot rezultātiem</artss:hasGuideline>
+        <artss:hasInputParameterValue xml:lang="lv">Darbinieku mainības %</artss:hasInputParameterValue>
+        <artss:hasInputParameterValue xml:lang="lv">darbinieku novērtējuma rezultāti.</artss:hasInputParameterValue>
+        <artss:hasProblem xml:lang="lv">neapmierināti un nemotivēti darbinieki rada zemāku produktivitāti un var izraisīt darbinieku aiziešanu no uzņēmuma. Darbinieku motivēšana distances darba apstākļos var būt ļoti sarežģīta</artss:hasProblem>
+        <artss:hasSolution xml:lang="lv">darbinieku noskaņojuma mērīšana katru dienu pieslēdzoties komunikācijas sistēmai un regulāras aptaujas ar rezultātu apstrādi izmantojot algoritmu</artss:hasSolution>
+        <rdfs:label xml:lang="lv">Darbinieku motivacijas līmenis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/DatiemTiekVeidotasRegularasRezervesKopijas%2CLaiTosVarAtjaunotProblemu%28datuBojasanasVaiZuduma%29Gadijuma -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/DatiemTiekVeidotasRegularasRezervesKopijas%2CLaiTosVarAtjaunotProblemu%28datuBojasanasVaiZuduma%29Gadijuma">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Goal"/>
+        <rdfs:label xml:lang="lv">Datiem tiek veidotas regulāras rezerves kopijas, lai tos var atjaunot problēmu (datu bojāšanas vai zuduma) gadījumā</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/GadijumuSkaits%2CKadDatiemTiekKlatNeautorizetiLietotaji -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/GadijumuSkaits%2CKadDatiemTiekKlatNeautorizetiLietotaji">
+        <rdf:type rdf:resource="https://artss.rtu.lv/KPI"/>
+        <rdfs:label xml:lang="lv">Gadījumu skaits, kad datiem tiek klāt neautorizēti lietotāji</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/IzmeritDarbiniekuMotivacijasUnApmierinatibasLimeni%2CLaiVeiktuProfilaktiskiNepieciesamosPasakumus -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/IzmeritDarbiniekuMotivacijasUnApmierinatibasLimeni%2CLaiVeiktuProfilaktiskiNepieciesamosPasakumus">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Goal"/>
+        <rdfs:label xml:lang="lv">izmērīt darbinieku motivācijas un apmierinātības līmeni, lai veiktu profilaktiski nepieciešamos pasākumus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/LietotajaDrauduL%C4%ABmenis -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/LietotajaDrauduL%C4%ABmenis">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Context"/>
+        <rdfs:label xml:lang="lv">Lietotāja draudu līmenis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/Nodrosinat%2CKaSistemaTiekIzmantotasGrutiUzminamasUnGrutiUzlauzamasUnikalasParoles -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/Nodrosinat%2CKaSistemaTiekIzmantotasGrutiUzminamasUnGrutiUzlauzamasUnikalasParoles">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Goal"/>
+        <rdfs:label xml:lang="lv">Nodrošināt, ka sistēmā tiek izmantotas grūti uzminamas un grūti uzlaužamas unikālas paroles.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/NodrosinatKaDatiemTiekKlatTikaiTasPersonas%2CKamSadaPieejaIrNepieciesama -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/NodrosinatKaDatiemTiekKlatTikaiTasPersonas%2CKamSadaPieejaIrNepieciesama">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Goal"/>
+        <rdfs:label xml:lang="lv">Nodrošināt, ka datiem tiek klāt tikai tās personas, kam šāda pieeja ir nepieciešama (need to know princips).</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema -->
 
 
     <owl:NamedIndividual rdf:about="https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema">
         <rdf:type rdf:resource="https://artss.rtu.lv/Goal"/>
         <rdfs:label xml:lang="lv">Noteikt kad visbiezak notiek ļaunpratiga aktivitāte sistema</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://artss.rtu.lv/ParliecinatiesKaPriviligetasLietotajuTiesibasIrPieskirtasTikaiTiemCilvekiem%2CKamTasTiesamIrNepieciesamasUnNodrosinatMazakoPieejasTiesibuPrincipu. -->
+
+
+    <owl:NamedIndividual rdf:about="https://artss.rtu.lv/ParliecinatiesKaPriviligetasLietotajuTiesibasIrPieskirtasTikaiTiemCilvekiem%2CKamTasTiesamIrNepieciesamasUnNodrosinatMazakoPieejasTiesibuPrincipu.">
+        <rdf:type rdf:resource="https://artss.rtu.lv/Goal"/>
+        <rdfs:label xml:lang="lv">Pārliecināties, ka priviliģētās lietotāju tiesības ir piešķirtas tikai tiem cilvēkiem, kam tās tiešam ir nepieciešamas un nodrošināt mazāko pieejas tiesību (least privilege) principu.</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 

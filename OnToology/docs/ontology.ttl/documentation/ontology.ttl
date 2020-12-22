@@ -9,6 +9,18 @@
 <urn:webprotege:ontology:ddddb56f-e866-4d1d-a099-7ad8c5163048> rdf:type owl:Ontology .
 
 #################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
 #    Object Properties
 #################################################################
 
@@ -86,6 +98,11 @@
 #################################################################
 #    Classes
 #################################################################
+
+###  http://www.w3.org/2002/07/owl#Thing
+owl:Thing <http://purl.org/dc/elements/1.1/creator> "Imants Zarembo"@lv ;
+          <http://purl.org/dc/elements/1.1/description> "VPP ARTSS šablonu repozitorija ontoloģija"@lv .
+
 
 ###  https://artss.rtu.lv/Capability
 <https://artss.rtu.lv/Capability> rdf:type owl:Class ;
