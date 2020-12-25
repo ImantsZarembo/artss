@@ -12,7 +12,6 @@
 <owl:Ontology rdf:about="urn:webprotege:ontology:ddddb56f-e866-4d1d-a099-7ad8c5163048"> 
   <rdfs:comment>This ontology describes all elements found in VPP ARTSS pattern repository https://artss.rtu.lv/repository/web/lv/patterns</rdfs:comment>
   <rdfs:label>VPP ARTSS pattern ontology</rdfs:label>
-  
 </owl:Ontology>
 
     <!-- 
