@@ -1,5 +1,9 @@
 {
   "@context" : {
+    "hasSolutionElement" : {
+      "@id" : "https://artss.rtu.lv/hasSolutionElement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
     "hasProblem" : {
       "@id" : "https://artss.rtu.lv/hasProblem",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
@@ -60,9 +64,6 @@
       "@id" : "https://artss.rtu.lv/hasKeyword",
       "@type" : "@id"
     },
-    "input" : {
-      "@id" : "https://artss.rtu.lv/input"
-    },
     "Keyword" : {
       "@id" : "https://artss.rtu.lv/Keyword"
     },
@@ -81,19 +82,12 @@
       "@id" : "https://artss.rtu.lv/hasContext",
       "@type" : "@id"
     },
-    "kpi" : {
-      "@id" : "https://artss.rtu.lv/kpi"
-    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "hasInputParameterValue" : {
       "@id" : "https://artss.rtu.lv/hasInputParameterValue",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "keywor" : {
-      "@id" : "https://artss.rtu.lv/keywor",
-      "@type" : "@id"
     },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
