@@ -1,0 +1,96 @@
+{
+  "@context" : {
+    "hasSolutionElement" : {
+      "@id" : "https://artss.rtu.lv/hasSolutionElement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasProblem" : {
+      "@id" : "https://artss.rtu.lv/hasProblem",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "Solution" : {
+      "@id" : "https://artss.rtu.lv/Solution"
+    },
+    "Context" : {
+      "@id" : "https://artss.rtu.lv/Context"
+    },
+    "KPI" : {
+      "@id" : "https://artss.rtu.lv/KPI"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Pattern" : {
+      "@id" : "https://artss.rtu.lv/Pattern"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "Capability" : {
+      "@id" : "https://artss.rtu.lv/Capability"
+    },
+    "hasGoal" : {
+      "@id" : "https://artss.rtu.lv/hasGoal",
+      "@type" : "@id"
+    },
+    "Problem" : {
+      "@id" : "https://artss.rtu.lv/Problem"
+    },
+    "InputParameter" : {
+      "@id" : "https://artss.rtu.lv/InputParameter"
+    },
+    "hasGuideline" : {
+      "@id" : "https://artss.rtu.lv/hasGuideline",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasSolution" : {
+      "@id" : "https://artss.rtu.lv/hasSolution",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Goal" : {
+      "@id" : "https://artss.rtu.lv/Goal"
+    },
+    "hasKeyword" : {
+      "@id" : "https://artss.rtu.lv/hasKeyword",
+      "@type" : "@id"
+    },
+    "Keyword" : {
+      "@id" : "https://artss.rtu.lv/Keyword"
+    },
+    "hasInputParameter" : {
+      "@id" : "https://artss.rtu.lv/hasInputParameter",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "hasKPI" : {
+      "@id" : "https://artss.rtu.lv/hasKPI",
+      "@type" : "@id"
+    },
+    "hasContext" : {
+      "@id" : "https://artss.rtu.lv/hasContext",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasInputParameterValue" : {
+      "@id" : "https://artss.rtu.lv/hasInputParameterValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    }
+  }
+}
