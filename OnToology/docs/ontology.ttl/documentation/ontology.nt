@@ -1,0 +1,293 @@
+<urn:webprotege:ontology:ddddb56f-e866-4d1d-a099-7ad8c5163048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://artss.rtu.lv/hasContext
+<https://artss.rtu.lv/hasContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://artss.rtu.lv/hasContext> <http://www.w3.org/2000/01/rdf-schema#domain> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/hasContext> <http://www.w3.org/2000/01/rdf-schema#range> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/hasContext> <http://www.w3.org/2000/01/rdf-schema#label> "hasContext"@lv .
+# 
+# https://artss.rtu.lv/hasGoal
+<https://artss.rtu.lv/hasGoal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://artss.rtu.lv/hasGoal> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://artss.rtu.lv/hasGoal> <http://www.w3.org/2000/01/rdf-schema#domain> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/hasGoal> <http://www.w3.org/2000/01/rdf-schema#range> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/hasGoal> <http://www.w3.org/2000/01/rdf-schema#label> "hasGoal"@lv .
+# 
+# https://artss.rtu.lv/hasInputParameter
+<https://artss.rtu.lv/hasInputParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://artss.rtu.lv/hasInputParameter> <http://www.w3.org/2000/01/rdf-schema#domain> <https://artss.rtu.lv/InputParameter> .
+<https://artss.rtu.lv/hasInputParameter> <http://www.w3.org/2000/01/rdf-schema#label> "hasInputParameter"@lv .
+# 
+# https://artss.rtu.lv/hasKPI
+<https://artss.rtu.lv/hasKPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://artss.rtu.lv/hasKPI> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://artss.rtu.lv/hasKPI> <http://www.w3.org/2000/01/rdf-schema#domain> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/hasKPI> <http://www.w3.org/2000/01/rdf-schema#range> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/hasKPI> <http://www.w3.org/2000/01/rdf-schema#label> "hasKPI"@lv .
+# 
+# https://artss.rtu.lv/hasKeyword
+<https://artss.rtu.lv/hasKeyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://artss.rtu.lv/hasKeyword> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://artss.rtu.lv/hasKeyword> <http://www.w3.org/2000/01/rdf-schema#domain> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/hasKeyword> <http://www.w3.org/2000/01/rdf-schema#range> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/hasKeyword> <http://www.w3.org/2000/01/rdf-schema#label> "hasKeyword"@lv .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://artss.rtu.lv/hasGuideline
+<https://artss.rtu.lv/hasGuideline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://artss.rtu.lv/hasGuideline> <http://www.w3.org/2000/01/rdf-schema#domain> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/hasGuideline> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://artss.rtu.lv/hasGuideline> <http://www.w3.org/2000/01/rdf-schema#label> "hasGuideline"@lv .
+# 
+# https://artss.rtu.lv/hasInputParameterValue
+<https://artss.rtu.lv/hasInputParameterValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://artss.rtu.lv/hasInputParameterValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/hasInputParameterValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://artss.rtu.lv/hasInputParameterValue> <http://www.w3.org/2000/01/rdf-schema#label> "hasInputParameterValue"@lv .
+# 
+# https://artss.rtu.lv/hasProblem
+<https://artss.rtu.lv/hasProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://artss.rtu.lv/hasProblem> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://artss.rtu.lv/hasProblem> <http://www.w3.org/2000/01/rdf-schema#domain> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/hasProblem> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://artss.rtu.lv/hasProblem> <http://www.w3.org/2000/01/rdf-schema#label> "hasProblem"@lv .
+# 
+# https://artss.rtu.lv/hasSolution
+<https://artss.rtu.lv/hasSolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://artss.rtu.lv/hasSolution> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://artss.rtu.lv/hasSolution> <http://www.w3.org/2000/01/rdf-schema#domain> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/hasSolution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://artss.rtu.lv/hasSolution> <http://www.w3.org/2000/01/rdf-schema#label> "hasSolution"@lv .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2002/07/owl#Thing
+<http://www.w3.org/2002/07/owl#Thing> <http://purl.org/dc/elements/1.1/creator> "Imants Zarembo"@lv .
+<http://www.w3.org/2002/07/owl#Thing> <http://purl.org/dc/elements/1.1/description> "VPP ARTSS šablonu repozitorija ontoloģija"@lv .
+# 
+# https://artss.rtu.lv/Capability
+<https://artss.rtu.lv/Capability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://artss.rtu.lv/Capability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://artss.rtu.lv/Capability> <http://www.w3.org/2000/01/rdf-schema#label> "Capability"@lv .
+# 
+# https://artss.rtu.lv/Context
+<https://artss.rtu.lv/Context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://artss.rtu.lv/Context> <http://www.w3.org/2000/01/rdf-schema#label> "Context"@lv .
+# 
+# https://artss.rtu.lv/Goal
+<https://artss.rtu.lv/Goal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://artss.rtu.lv/Goal> <http://www.w3.org/2000/01/rdf-schema#label> "Goal"@lv .
+# 
+# https://artss.rtu.lv/InputParameter
+<https://artss.rtu.lv/InputParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://artss.rtu.lv/InputParameter> <http://www.w3.org/2000/01/rdf-schema#label> "Input Parameter"@lv .
+# 
+# https://artss.rtu.lv/KPI
+<https://artss.rtu.lv/KPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://artss.rtu.lv/KPI> <http://www.w3.org/2000/01/rdf-schema#label> "KPI"@lv .
+# 
+# https://artss.rtu.lv/Keyword
+<https://artss.rtu.lv/Keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://artss.rtu.lv/Keyword> <http://www.w3.org/2000/01/rdf-schema#label> "Keyword"@lv .
+# 
+# https://artss.rtu.lv/Pattern
+<https://artss.rtu.lv/Pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://artss.rtu.lv/Pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Pattern"@lv .
+# 
+# https://artss.rtu.lv/Problem
+<https://artss.rtu.lv/Problem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://artss.rtu.lv/Problem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://artss.rtu.lv/Problem> <http://www.w3.org/2000/01/rdf-schema#label> "Problem"@lv .
+# 
+# https://artss.rtu.lv/Solution
+<https://artss.rtu.lv/Solution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://artss.rtu.lv/Solution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://artss.rtu.lv/Solution> <http://www.w3.org/2000/01/rdf-schema#label> "Solution"@lv .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://artss.rtu.lv/BrauktuvesStavoklaNovertejums
+<https://artss.rtu.lv/BrauktuvesStavoklaNovertejums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/BrauktuvesStavoklaNovertejums> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/BrauktuvesStavoklaNovertejums> <http://www.w3.org/2000/01/rdf-schema#label> "Brauktuves stāvokļa novērtējums"@lv .
+# 
+# https://artss.rtu.lv/CERTZinojumuSkaits
+<https://artss.rtu.lv/CERTZinojumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/CERTZinojumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/CERTZinojumuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "CERT zinojumu skaits"@lv .
+# 
+# https://artss.rtu.lv/Celi
+<https://artss.rtu.lv/Celi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Celi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/Celi> <http://www.w3.org/2000/01/rdf-schema#label> "Celi"@lv .
+# 
+# https://artss.rtu.lv/CeluUzturesana
+<https://artss.rtu.lv/CeluUzturesana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/CeluUzturesana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/BrauktuvesStavoklaNovertejums> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/DabasApstakli> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/DabasKatastrofas> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/LaikaApstakluPrognoze> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/Pandemija> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/Satiksme> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/IzpildesLaiks> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/ReakcijasLaiks> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/ZinojumuSkaits> .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasProblem> "Ceļu uzturēšanas darbi jāveic savlaicīgi, lai minimizētu negadījumu skaitu. Vienlaicīgi remondarbiem jābūt saskaņotiem ar satiksmi, lai efektīvāk veikt ceļa uzturēšanu un netraucētu satiksmei." .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasSolution> "Pielāgot ceļu uzturēšanas darbus." .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasSolution> "Pielāgot maršrutu un satiksmi, pielietojot viedās ceļa zīmes." .
+<https://artss.rtu.lv/CeluUzturesana> <https://artss.rtu.lv/hasSolution> "Pielāgot satiksmi operatīvi izsūtot brīdinājumus caur Waze un citiem informācijas kanāliem." .
+<https://artss.rtu.lv/CeluUzturesana> <http://www.w3.org/2000/01/rdf-schema#label> "Ceļu Uzturēšana"@lv .
+<https://artss.rtu.lv/CeluUzturesana> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://artss.rtu.lv/repository/web/lv/patterns/celu-uzturesana> .
+# 
+# https://artss.rtu.lv/DabasApstakli
+<https://artss.rtu.lv/DabasApstakli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/DabasApstakli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/DabasApstakli> <http://www.w3.org/2000/01/rdf-schema#label> "Dabas apstākļi"@lv .
+# 
+# https://artss.rtu.lv/DabasKatastrofas
+<https://artss.rtu.lv/DabasKatastrofas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/DabasKatastrofas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/DabasKatastrofas> <http://www.w3.org/2000/01/rdf-schema#label> "Dabas katastrofas"@lv .
+# 
+# https://artss.rtu.lv/IncidentuSkaits
+<https://artss.rtu.lv/IncidentuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/IncidentuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/IncidentuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "Incidentu skaits"@lv .
+<https://artss.rtu.lv/IncidentuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "Incidentu skaits\n"@lv .
+# 
+# https://artss.rtu.lv/IzpildesLaiks
+<https://artss.rtu.lv/IzpildesLaiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/IzpildesLaiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/IzpildesLaiks> <http://www.w3.org/2000/01/rdf-schema#label> "Izpildes laiks"@lv .
+# 
+# https://artss.rtu.lv/Kalendars
+<https://artss.rtu.lv/Kalendars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Kalendars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/Kalendars> <http://www.w3.org/2000/01/rdf-schema#label> "Kalendars"@lv .
+# 
+# https://artss.rtu.lv/LaikaApstakluPrognoze
+<https://artss.rtu.lv/LaikaApstakluPrognoze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/LaikaApstakluPrognoze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/LaikaApstakluPrognoze> <http://www.w3.org/2000/01/rdf-schema#label> "Laika apstaklu prognoze"@lv .
+# 
+# https://artss.rtu.lv/Laiks
+<https://artss.rtu.lv/Laiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Laiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+<https://artss.rtu.lv/Laiks> <http://www.w3.org/2000/01/rdf-schema#label> "Laiks"@lv .
+# 
+# https://artss.rtu.lv/NedelasDiena
+<https://artss.rtu.lv/NedelasDiena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NedelasDiena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/InputParameter> .
+<https://artss.rtu.lv/NedelasDiena> <http://www.w3.org/2000/01/rdf-schema#label> "Nedelas diena"@lv .
+# 
+# https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla
+<https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/NegadijumuSkaitsDelNeapmierinosaBrauktuvesStavokla> <http://www.w3.org/2000/01/rdf-schema#label> "Negadijumu skaits del neapmierinosa brauktuves stavokla"@lv .
+# 
+# https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi
+<https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi> <http://www.w3.org/2000/01/rdf-schema#label> "Neveiksmīgs savienojumus skaits mēnesī"@lv .
+# 
+# https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli
+<https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/NodrosinatApmierinosuBrauktuvesStavokli> <http://www.w3.org/2000/01/rdf-schema#label> "Nodrosinat apmierinosu brauktuves stavokli"@lv .
+# 
+# https://artss.rtu.lv/Pandemija
+<https://artss.rtu.lv/Pandemija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Pandemija> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/Pandemija> <http://www.w3.org/2000/01/rdf-schema#label> "Pandēmija"@lv .
+# 
+# https://artss.rtu.lv/ReakcijasLaiks
+<https://artss.rtu.lv/ReakcijasLaiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/ReakcijasLaiks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/ReakcijasLaiks> <http://www.w3.org/2000/01/rdf-schema#label> "Reakcijas laiks"@lv .
+# 
+# https://artss.rtu.lv/Satiksme
+<https://artss.rtu.lv/Satiksme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Satiksme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/Satiksme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Keyword> .
+# 
+# https://artss.rtu.lv/Steidzamiba
+<https://artss.rtu.lv/Steidzamiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/Steidzamiba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Context> .
+<https://artss.rtu.lv/Steidzamiba> <http://www.w3.org/2000/01/rdf-schema#label> "Steidzamiba"@lv .
+# 
+# https://artss.rtu.lv/UzbrukumuKalendars
+<https://artss.rtu.lv/UzbrukumuKalendars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/UzbrukumuKalendars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Pattern> .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasContext> <https://artss.rtu.lv/Steidzamiba> .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasGoal> <https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema> .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasInputParameter> <https://artss.rtu.lv/NedelasDiena> .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/CERTZinojumuSkaits> .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/IncidentuSkaits> .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasKPI> <https://artss.rtu.lv/NeveiksmiguSavienojumuSkaitsMenesi> .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/Kalendars> .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/Laiks> .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasGuideline> "Ir jāņem vērā arī valsts svētku brīvdienas, tādēļ ir būtiski apskatīt ne tikai nedēļas dienu, bet arī datumu."@lv .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasInputParameterValue> "Darba dienas:\n\nPirmdiena,\nOtrdiena,\nTrešdiena,\nCeturtdiena,\nPiektdiena\nBrīvdienas:\n\nSestdiena,\nSvētdiena"@lv .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasProblem> "Atkarībā no nedēļas dienas atšķiras ļaunprātīgo lietotāju aktivitāte."@lv .
+<https://artss.rtu.lv/UzbrukumuKalendars> <https://artss.rtu.lv/hasSolution> "Veikt ļaunprātīgo lietotāju darbību, piemēram, potenciāli ļaunprātīgu DNS uzskaiti, un salīdzināt incidentu daudzumu atkarībā no nedēļas dienas un laika."@lv .
+<https://artss.rtu.lv/UzbrukumuKalendars> <http://www.w3.org/2000/01/rdf-schema#label> "Uzbrukumu kalendārs"@lv .
+# 
+# https://artss.rtu.lv/ZinojumuSkaits
+<https://artss.rtu.lv/ZinojumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/ZinojumuSkaits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/KPI> .
+<https://artss.rtu.lv/ZinojumuSkaits> <http://www.w3.org/2000/01/rdf-schema#label> "Ziņojumu skaits"@lv .
+# 
+# https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema
+<https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://artss.rtu.lv/Goal> .
+<https://artss.rtu.lv/NoteiktKadVisbiezakNotiek%C4%BBaunpratigaAktivit%C4%81teSistema> <http://www.w3.org/2000/01/rdf-schema#label> "Noteikt kad visbiezak notiek ļaunpratiga aktivitāte sistema"@lv .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
