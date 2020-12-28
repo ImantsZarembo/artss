@@ -321,7 +321,8 @@ owl:Thing <http://purl.org/dc/elements/1.1/creator> "Imants Zarembo"@lv ;
                                                                                                                                                         "Izmantot vairāku faktoru autentifikāciju (multi factor authentication)"@lv ,
                                                                                                                                                         "Pārbaudīt paroles pret zināmām nedrošām parolēm (haveibeenpwned.com u.c.)"@lv ,
                                                                                                                                                         "Rādīt ieteikumus drošu paroļu veidošanai"@lv ;
-                                                                                                                     rdfs:label "Drošas paroles veidošana un pārbaude pacientu elektronisko datu aizsardzībai pret nesankcionētu piekļuvi"@lv .
+                                                                                                                     rdfs:label "Drošas paroles veidošana un pārbaude pacientu elektronisko datu aizsardzībai pret nesankcionētu piekļuvi"@lv ;
+                                                                                                                     rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/drosas-paroles-veidosana-un-parbaude-pacientu-elektronisko-datu-aizsardzibai-pret> .
 
 
 ###  https://artss.rtu.lv/DrosibasLimenis
@@ -349,7 +350,8 @@ owl:Thing <http://purl.org/dc/elements/1.1/creator> "Imants Zarembo"@lv ;
                                                                                                                "parametri kvalitatīvai komunikācijas sniegšanai"@lv ;
                                                                  <https://artss.rtu.lv/hasProblem> "attālināta darba kontekstā var būt mazāk acīmredzams, vai saziņa ir bieža, efektīva un piemērota"@lv ;
                                                                  <https://artss.rtu.lv/hasSolution> "uzņēmuma normu ieviešana par ieteicamo sapulces/ziņojuma apmaiņas biežumu, ziņojuma garumu atbilstoši kontekstam, sapulču ieteicamo ilgumu"@lv ;
-                                                                 rdfs:label "Efektīvas komunikācijas klimats organizācijā"@lv .
+                                                                 rdfs:label "Efektīvas komunikācijas klimats organizācijā"@lv ;
+                                                                 rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/efektivas-komunikacijas-klimats-organizacija> .
 
 
 ###  https://artss.rtu.lv/GimenesArstaPraksesDatortiklaUnInternetaPieslegumaDrosibasIzvertejums
@@ -381,7 +383,8 @@ Ievainojamības iesaistītās komponentes
 Ievainojamības riska līmenis"""@lv ;
                                                                                              <https://artss.rtu.lv/hasProblem> "Neveicot datortīkla un interneta pieslēguma drošības izvērtējumu, nav iespējams paredzēt identificēt ievainojamās vietas datortīklā."@lv ;
                                                                                              <https://artss.rtu.lv/hasSolution> "Izmantot automatizētus risinājumus nepārtrauktai drošības līmeņa kontrolei, vai veikt regulārus datortīkla un interneta pieslēguma drošības izvērtējumus"@lv ;
-                                                                                             rdfs:label "Ģimenes ārsta prakses datortīkla un interneta pieslēguma drošības izvērtējums"@lv .
+                                                                                             rdfs:label "Ģimenes ārsta prakses datortīkla un interneta pieslēguma drošības izvērtējums"@lv ;
+                                                                                             rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/gimenes-arsta-prakses-datortikla-un-interneta-piesleguma-drosibas-izvertejums> .
 
 
 ###  https://artss.rtu.lv/GimenesArstaPraksesDatuDrosibasNovertejumsPieejasTiesibasUnRezervesKopijas
@@ -408,7 +411,8 @@ Ievainojamības riska līmenis"""@lv ;
                                                                                                   <https://artss.rtu.lv/hasSolution> "Veikt regulāru datu rezerves kopēšanu."@lv ,
                                                                                                                                      "Veikt regulāru lietotāju tiesību pārskatīšanu, pārliecinoties, ka lietotājiem ir piešķirtas minimāli nepieciešamās lietotāju tiesības."@lv ,
                                                                                                                                      "Veikt regulāru rezerves kopiju atjaunošanas pārbaudi."@lv ;
-                                                                                                  rdfs:label "Ģimenes ārsta prakses datu drošības novērtējums - pieejas tiesības un rezerves kopijas"@lv .
+                                                                                                  rdfs:label "Ģimenes ārsta prakses datu drošības novērtējums - pieejas tiesības un rezerves kopijas"@lv ;
+                                                                                                  rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/gimenes-arsta-prakses-datu-drosibas-novertejums-pieejas-tiesibas-un-rezerves-kopijas> .
 
 
 ###  https://artss.rtu.lv/HroniskoSlimniekuMonitorings
@@ -710,7 +714,8 @@ Ievainojamības riska līmenis"""@lv ;
                                                                   <https://artss.rtu.lv/hasSolution> "Aizsargāt priviliģētos lietotāju kontus ar vairāku faktoru autentifikāciju"@lv ,
                                                                                                      "Ieviest mazāko pieejas tiesību (least privilege) principu, samazinot priviliģēto lietotāju skaitu"@lv ,
                                                                                                      "Veikt regulāru pieejas tiesību pārskatīšanu"@lv ;
-                                                                  rdfs:label "Priviliģēto lietotāju pārvaldības izvērtējums"@lv .
+                                                                  rdfs:label "Priviliģēto lietotāju pārvaldības izvērtējums"@lv ;
+                                                                  rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/priviligeto-lietotaju-parvaldibas-izvertejums> .
 
 
 ###  https://artss.rtu.lv/PriviligetoLietotajuSkaitaPretKopejoSistemasLietotajuSkaitu
@@ -820,7 +825,8 @@ Ievainojamības riska līmenis"""@lv ;
                                                                                                                                   <https://artss.rtu.lv/hasSolution> "Nodrošināt ar ergonomisku darba vidi."@lv ,
                                                                                                                                                                      "Nodrošināt darbinieku ar personīgo darba staciju un apmaksāt personīgo interneta pieslēgumu."@lv ,
                                                                                                                                                                      "Nodrošināt kopējo uzņēmuma platformu attālinātajam darbam."@lv ;
-                                                                                                                                  rdfs:label "Tehnikā risinājuma nodrošināšana valsts iestādes vai uzņēmuma darbinieku darba pienākumu izpildei strādājot attālināti."@lv .
+                                                                                                                                  rdfs:label "Tehniskā risinājuma nodrošināšana valsts iestādes vai uzņēmuma darbinieku darba pienākumu izpildei strādājot attālināti"@lv ;
+                                                                                                                                  rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/tehnika-risinajuma-nodrosinasana-valsts-iestades-vai-uznemuma-darbinieku-darba-pienakumu> .
 
 
 ###  https://artss.rtu.lv/ToMinimizeWarningsByCERT
@@ -879,7 +885,8 @@ Sestdiena,
 Svētdiena"""@lv ;
                                           <https://artss.rtu.lv/hasProblem> "Atkarībā no nedēļas dienas atšķiras ļaunprātīgo lietotāju aktivitāte."@lv ;
                                           <https://artss.rtu.lv/hasSolution> "Veikt ļaunprātīgo lietotāju darbību, piemēram, potenciāli ļaunprātīgu DNS uzskaiti, un salīdzināt incidentu daudzumu atkarībā no nedēļas dienas un laika."@lv ;
-                                          rdfs:label "Uzbrukumu kalendārs"@lv .
+                                          rdfs:label "Uzbrukumu kalendārs"@lv ;
+                                          rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/uzbrukumu-kalendars> .
 
 
 ###  https://artss.rtu.lv/UzturetAugstuDarbaProduktuvitatiUnSavstarpejoKomunikacijasLimeni
@@ -1029,7 +1036,8 @@ Svētdiena"""@lv ;
                                                                                                                   "Iekārtas datplūsmas dati" ,
                                                                                                                   "Iekārtas identificēšanas (log) dati" ,
                                                                                                                   "Lietotāja identificēšanas dati" ;
-                                                                        rdfs:label "Apdraudējuma līmeņa noteikšana"@lv .
+                                                                        rdfs:label "Apdraudējuma līmeņa noteikšana"@lv ;
+                                                                        rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/apdraudejuma-limena-noteiksana> .
 
 
 ###  https://artss.rtu.lv/Apzi%C5%86o%C5%A1anasVeids
@@ -1056,7 +1064,8 @@ Svētdiena"""@lv ;
                                                                                                                          "Ziņa lietotāja profilā" ;
                                                                            <https://artss.rtu.lv/hasProblem> "Lai spētu ātri novērst incidentu, ir nepieciešams izvēlēties atbilstošāko informatīvas ziņas nosūtīšanas veidu lietotājam." ;
                                                                            <https://artss.rtu.lv/hasSolution> "Izvēlēties apziņošanas veidu atkarībā no incidenta steidzamības un nosūtīto ziņu skaita." ;
-                                                                           rdfs:label "Apziņošanas paņēmiena izvēle"@lv .
+                                                                           rdfs:label "Apziņošanas paņēmiena izvēle"@lv ;
+                                                                           rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/apzinosanas-panemiena-izvele> .
 
 
 ###  https://artss.rtu.lv/AtbalstaFunkcijaVad%C4%ABt%C4%81jam
@@ -1084,7 +1093,8 @@ Svētdiena"""@lv ;
                                                                                                          "vadītāju vērtējums par izmantoto rīku efektivitāti"@lv ;
                                                            <https://artss.rtu.lv/hasProblem> "bez nepieciešamām komunikācijas funkcijām komunikācijas efektivitāte var būt samazināta"@lv ;
                                                            <https://artss.rtu.lv/hasSolution> "pārbaudīt, vai sniegtajam tehnoloģiskajam atbalstam ir atbilstošās funkcijas"@lv ;
-                                                           rdfs:label "Atbalsta funkcija vadītājam"@lv .
+                                                           rdfs:label "Atbalsta funkcija vadītājam"@lv ;
+                                                           rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/atbalsta-funkcija-vaditajam> .
 
 
 ###  https://artss.rtu.lv/Atkl%C4%81toAugstaRiskaIevainojam%C4%ABbuSkaitsUn%C4%AApatsvars
@@ -1158,7 +1168,8 @@ Svētdiena"""@lv ;
                                                                                                     "Disconnect the Device if Urgency is Medium  and User cannot be identified" ,
                                                                                                     "Ignore otherwise" ,
                                                                                                     "Notify user if Urgency is Low or Medium and User can be identified" ;
-                                                                 rdfs:label "Compromised network device: select response"@lv .
+                                                                 rdfs:label "Compromised network device: select response"@lv ;
+                                                                 rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/compromised-network-device-select-response> .
 
 
 ###  https://artss.rtu.lv/DNSPiepras%C4%ABjumi
@@ -1189,7 +1200,8 @@ Svētdiena"""@lv ;
                                                                                                        "darbinieku novērtējuma rezultāti."@lv ;
                                                          <https://artss.rtu.lv/hasProblem> "neapmierināti un nemotivēti darbinieki rada zemāku produktivitāti un var izraisīt darbinieku aiziešanu no uzņēmuma. Darbinieku motivēšana distances darba apstākļos var būt ļoti sarežģīta"@lv ;
                                                          <https://artss.rtu.lv/hasSolution> "darbinieku noskaņojuma mērīšana katru dienu pieslēdzoties komunikācijas sistēmai un regulāras aptaujas ar rezultātu apstrādi izmantojot algoritmu"@lv ;
-                                                         rdfs:label "Darbinieku motivacijas līmenis"@lv .
+                                                         rdfs:label "Darbinieku motivacijas līmenis"@lv ;
+                                                         rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/darbinieku-motivacijas-limenis> .
 
 
 ###  https://artss.rtu.lv/DarbiniekuZin%C4%81%C5%A1anuNov%C4%93rt%C4%93jums
@@ -1224,7 +1236,8 @@ Svētdiena"""@lv ;
                                                        <https://artss.rtu.lv/hasInputParameterValue> "Divu faktoru autentifikācijas stāvoklis"@lv ;
                                                        <https://artss.rtu.lv/hasProblem> "Ne visi lietotāji veido drošas un unikālas paroles sistēmā, pakļaujot sistēmā pieejamos datus incidenta riskam."@lv ;
                                                        <https://artss.rtu.lv/hasSolution> "Ieviest un uzspiest visiem lietotājiem izmantot divu faktoru autentifikācijas mehānismus."@lv ;
-                                                       rdfs:label "Divu faktoru autentifikācija"@lv .
+                                                       rdfs:label "Divu faktoru autentifikācija"@lv ;
+                                                       rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/divu-faktoru-autentifikacija> .
 
 
 ###  https://artss.rtu.lv/DrauduL%C4%ABme%C5%86aKontrole
@@ -1253,7 +1266,8 @@ Svētdiena"""@lv ;
                                                                                                     "Piekļuve un darbības ar resursiem un failiem" ;
                                                       <https://artss.rtu.lv/hasProblem> "Neveicot draudu līmeņa kontroli, palielinās risks, ka var notikt drošības pārkāpumi, incidenti." ;
                                                       <https://artss.rtu.lv/hasSolution> "Izmantot automatizētus risinājumus draudu līmeņa kontrolei, lai nekavējoties spētu identificēt incidentus." ;
-                                                      rdfs:label "Draudu līmeņa kontrole"@lv .
+                                                      rdfs:label "Draudu līmeņa kontrole"@lv ;
+                                                      rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/draudu-limena-kontrole> .
 
 
 ###  https://artss.rtu.lv/Dro%C5%A1iPamatservisi
@@ -1288,7 +1302,8 @@ Svētdiena"""@lv ;
                                                                                                                  "Vairāku faktoru autentifikācijas statuss (ieslēgts/izslēgts)" ;
                                                                    <https://artss.rtu.lv/hasProblem> "Izmantojot viegli uzminamas, uzlauzamas paroles un paroles atkalizmantojot, palielinās risks, ka var notikt drošības pārkāpumi, incidenti." ;
                                                                    <https://artss.rtu.lv/hasSolution> "Izmantot vairāku faktoru autentifikāciju un/vai paroļu pārvaldnieku, kā arī noteikt minimālās prasības parolēm, lai paaugstinātu paroļu drošības līmeni." ;
-                                                                   rdfs:label "Droša parole attālinātam darbam"@lv .
+                                                                   rdfs:label "Droša parole attālinātam darbam"@lv ;
+                                                                   rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/drosa-parole-attalinatam-darbam> .
 
 
 ###  https://artss.rtu.lv/Dro%C5%A1asPieg%C4%81des%C4%B6%C4%93desIzv%C4%93rt%C4%93jums
@@ -1311,7 +1326,8 @@ Svētdiena"""@lv ;
                                                                                     <https://artss.rtu.lv/hasSolution> "Līgumos ar piegādātājiem, definēt obligātās drošības prasības, kā arī iekļaut punktu par piegādātāja pienākumu veikt regulāru iekšējo pārbaudi prasību atbilstībai un atskaiti nosūtīt pasūtītājam."@lv ,
                                                                                                                        "Piegādātājiem piešķirt minimālās nepieciešamās (least privilege) pieejas tiesības."@lv ,
                                                                                                                        "Veikt regulāras (vismaz reizi 3 gados) pārbaudes pie piegādātājiem drošības prasību īstenošanas atbilstībai."@lv ;
-                                                                                    rdfs:label "Drošas piegādes ķēdes izvērtējums"@lv .
+                                                                                    rdfs:label "Drošas piegādes ķēdes izvērtējums"@lv ;
+                                                                                    rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/drosas-piegades-kedes-izvertejums> .
 
 
 ###  https://artss.rtu.lv/Fizisk%C4%81Atvieno%C5%A1ana
@@ -1327,7 +1343,8 @@ Svētdiena"""@lv ;
                                                     <https://artss.rtu.lv/hasGuideline> "Jādefinē pie kādiem apstākļiem ir jāveic ierīces atslēgšana." ;
                                                     <https://artss.rtu.lv/hasProblem> "Inficēta ierīce spēj inficēt arī citas tīmekļa iekārtas." ;
                                                     <https://artss.rtu.lv/hasSolution> "Ja lietotāja draudu līmenis ir nezināms un steidzamība ir zema vai vidēja, tad atslēgt ierīci." ;
-                                                    rdfs:label "Fiziskā atvienošana"@lv .
+                                                    rdfs:label "Fiziskā atvienošana"@lv ;
+                                                    rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/fiziska-atvienosana> .
 
 
 ###  https://artss.rtu.lv/Fizisk%C4%81sDro%C5%A1%C4%ABbasDrauduL%C4%ABmenis
@@ -1435,7 +1452,8 @@ Svētdiena"""@lv ;
                                                                        <https://artss.rtu.lv/hasSolution> "Ja incidents nav steidzams un nav daudz incidentu --> lietotāja apziņošana" ,
                                                                                                           "Ja inficētā ierīce inficē arī citas tīkla ierīces --> atslēgt ierīci" ,
                                                                                                           "Ja lietotājs nereaģē uz ziņu par incidentu 3h laikā --> atslēgt ierīci" ;
-                                                                       rdfs:label "Incidenta novēršanas metodes izvēle"@lv .
+                                                                       rdfs:label "Incidenta novēršanas metodes izvēle"@lv ;
+                                                                       rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/incidenta-noversanas-metodes-izvele> .
 
 
 ###  https://artss.rtu.lv/IncidentaRisin%C4%81jumaVeids
@@ -1457,7 +1475,8 @@ Svētdiena"""@lv ;
                                                                                                               <https://artss.rtu.lv/Prognoz%C4%93%C5%A1ana> ;
                                                                             <https://artss.rtu.lv/hasProblem> "Liels vienlaicīgu incidentu skaits pārslogo tīklu, samazina sistēmas darbību un palielina apdraudējuma līmeni." ;
                                                                             <https://artss.rtu.lv/hasSolution> "Izveidot savu incidentu analizatoru, piemēram, DNS analizatoru, lai nebūtu nepieciešamība lietot publiskās datu bāzes, kas kavē laiku." ;
-                                                                            rdfs:label "Incidentu apsteidzošā prognozēšana"@lv .
+                                                                            rdfs:label "Incidentu apsteidzošā prognozēšana"@lv ;
+                                                                            rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/incidentu-apsteidzosa-prognozesana> .
 
 
 ###  https://artss.rtu.lv/IncidentuNov%C4%93r%C5%A1anasLaiks
@@ -1496,7 +1515,8 @@ Svētdiena"""@lv ;
                                                                                                                                         "Piekļuve un darbības ar resursiem un failiem" ;
                                                                                           <https://artss.rtu.lv/hasProblem> "Nenosakot un neuzraugot drošības līmeni, palielinās risks, ka var notikt drošības pārkāpumi, incidenti." ;
                                                                                           <https://artss.rtu.lv/hasSolution> "Izmantot automatizētus risinājumus drošības līmeņa kontrolei, lai nekavējoties reagētu uz izmaiņām." ;
-                                                                                          rdfs:label "Informācijas drošības līmeņa noteikšana"@lv .
+                                                                                          rdfs:label "Informācijas drošības līmeņa noteikšana"@lv ;
+                                                                                          rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/informacijas-drosibas-limena-noteiksana> .
 
 
 ###  https://artss.rtu.lv/Inform%C4%81cijasPieejam%C4%ABba
@@ -1538,7 +1558,8 @@ Svētdiena"""@lv ;
                                                                                                                                                "Piekļuve resursiem un failiem" ;
                                                                                                  <https://artss.rtu.lv/hasProblem> "Nenodrošinot pietiekamā līmenī attālinātā darba apstākļos informācijas pieejamību, tiek ietekmēts veiktais darbs un tā efektivitāte." ;
                                                                                                  <https://artss.rtu.lv/hasSolution> "Strukturēti organizēt lietotāju tiesību pārvaldību, lai informācijas pieejamība tiktu pārvaldīta un monitorēta." ;
-                                                                                                 rdfs:label "Informācijas pieejamības līmeņa paaugstināšana"@lv .
+                                                                                                 rdfs:label "Informācijas pieejamības līmeņa paaugstināšana"@lv ;
+                                                                                                 rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/informacijas-pieejamibas-limena-paaugstinasana> .
 
 
 ###  https://artss.rtu.lv/Inform%C4%81cijasResursaDrauduL%C4%ABmenis
@@ -1786,7 +1807,8 @@ Svētdiena"""@lv ;
                                                                                                <https://artss.rtu.lv/hasSolution> "Nepieciešamīas gadījumā aicina uz klātienes pieņemšanu" ,
                                                                                                                                   "Pielāgojas pacientu vairākuma lietotnēm un iekārtām" ,
                                                                                                                                   "Servisa nodrošināšanai izmanto VM rekomendācijas ārsta praksēm" ;
-                                                                                               rdfs:label "Pacienta veselības stāvokļa attālināts monitorings"@lv .
+                                                                                               rdfs:label "Pacienta veselības stāvokļa attālināts monitorings"@lv ;
+                                                                                               rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/pacienta-veselibas-stavokla-attalinats-monitorings> .
 
 
 ###  https://artss.rtu.lv/PacientuApmierin%C4%81t%C4%ABba
@@ -1854,7 +1876,8 @@ Svētdiena"""@lv ;
                                                              <https://artss.rtu.lv/hasKeyword> <https://artss.rtu.lv/Lietot%C4%81js> ,
                                                                                                <https://artss.rtu.lv/P%C4%81rraudz%C4%ABba> ;
                                                              <https://artss.rtu.lv/hasProblem> "Sekojot lietotāja aktivitātei un pastirpināti uzraugot aizdomīgos lietotājus, ir iemācīties atkarībā no lietotāja uzvedības novērst incidenta rašanos." ;
-                                                             rdfs:label "Pastiprinātā uzraudzība"@lv .
+                                                             rdfs:label "Pastiprinātā uzraudzība"@lv ;
+                                                             rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/pastiprinata-uzraudziba> .
 
 
 ###  https://artss.rtu.lv/Pazi%C5%86ojums
@@ -1877,7 +1900,8 @@ Svētdiena"""@lv ;
                                                                                             "Sekundes" ,
                                                                                             "Stundas" ;
                                               <https://artss.rtu.lv/hasProblem> "Incidentu uzrašanās notiek dinamiski un ir svarīgi laicīgi tos identificēt, tādēļ jāizvēlas atbilstošs periods tīkla apskatei." ;
-                                              rdfs:label "Periodiskā apskate"@lv .
+                                              rdfs:label "Periodiskā apskate"@lv ;
+                                              rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/periodiska-apskate> .
 
 
 ###  https://artss.rtu.lv/Person%C4%81laDatoruSkaits
@@ -1916,7 +1940,8 @@ Svētdiena"""@lv ;
                                                                                                                                           "Piekļuve un darbības ar resursiem un failiem" ;
                                                                                             <https://artss.rtu.lv/hasProblem> "Nenosakot un neuzraugot personālā datora izmantošana darba uzdevumu veikšanai, palielinās risks, ka var notikt drošības pārkāpumi, incidenti." ;
                                                                                             <https://artss.rtu.lv/hasSolution> "Noteikt prasības personāla datoru izmantošanai darba uzdevumu veikšanai un nodrošināt to izpildes uzraudzību." ;
-                                                                                            rdfs:label "Personālā datora izmantošana darba uzdevumu veikšanai"@lv .
+                                                                                            rdfs:label "Personālā datora izmantošana darba uzdevumu veikšanai"@lv ;
+                                                                                            rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/personala-datora-izmantosana-darba-uzdevumu-veiksanai> .
 
 
 ###  https://artss.rtu.lv/Person%C4%81laDatoruIzmanto%C5%A1ana
@@ -2085,7 +2110,8 @@ Svētdiena"""@lv ;
                                                                                                                  "Pieteikumu un incidentu skaits" ;
                                                                    <https://artss.rtu.lv/hasProblem> "Neuzraugot resursu darbību un nenosakot prasības darbam ar resursiem, palielinās risks, ka var rasties problēmas tehnisko resursu izmantošanā." ;
                                                                    <https://artss.rtu.lv/hasSolution> "Noteikt prasības resursu izmantošanai un nodrošināt to izpildes uzraudzību." ;
-                                                                   rdfs:label "Tehniskās problēmas darba vietā"@lv .
+                                                                   rdfs:label "Tehniskās problēmas darba vietā"@lv ;
+                                                                   rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/tehniskas-problemas-darba-vieta> .
 
 
 ###  https://artss.rtu.lv/Telemedic%C4%ABna
@@ -2109,7 +2135,8 @@ Svētdiena"""@lv ;
                                                                                    <https://artss.rtu.lv/hasProblem> "Ja neplānotu apstākļu dēļ transportlīdzekļi kavējas un to maršruti pārklājas, vairāku maršrutu pasažieri mēģina izmantot vienu transportlīdzekli un daudz pasažieri pulcējas pieturvietās" ,
                                                                                                                      "Sabiedriskajā transportā ir jāmazina cilvēku drūzmēšanās gan transportlīdzeklī, gan pieturvietās" ;
                                                                                    <https://artss.rtu.lv/hasSolution> "Pielāgot braukšanas ātrumu, lai minimizētu nobīdes no maršruta izpildes plāna un pārklāšanos ar citiem transportlīdzekļiem" ;
-                                                                                   rdfs:label "Transportlīdzekļa ātruma pielāgošana"@lv .
+                                                                                   rdfs:label "Transportlīdzekļa ātruma pielāgošana"@lv ;
+                                                                                   rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/transportlidzekla-atruma-pielagosana> .
 
 
 ###  https://artss.rtu.lv/VadotiesNoLietot%C4%81jaUzved%C4%ABbas%2CNov%C4%93rstIncidentaRa%C5%A1anos
@@ -2183,7 +2210,8 @@ Svētdiena"""@lv ;
                                                                             <https://artss.rtu.lv/hasSolution> "Ievainojamību novērtēšanai izmanto CVE reģistru" ,
                                                                                                                "Izvēlas videokonferenču rīku ar augstu vērtējumu un atbilstošu sertifikācijas prasībām" ,
                                                                                                                "Lietotāju vērtējuma novērtēšanai izmanto Google Play un Apple App Store" ;
-                                                                            rdfs:label "Videokonferenču rīku kvalificēšana"@lv .
+                                                                            rdfs:label "Videokonferenču rīku kvalificēšana"@lv ;
+                                                                            rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/videokonferencu-riku-kvalificesana> .
 
 
 ###  https://artss.rtu.lv/VideokonferencesKonfigur%C4%93%C5%A1ana
@@ -2204,7 +2232,8 @@ Svētdiena"""@lv ;
                                                                <https://artss.rtu.lv/hasSolution> "Izmanto \"Konfigurē drošības iestatījumus\" pielāgojumu" ,
                                                                                                   "Ja Lietotāja autentifikācijas statuss = autentificējies, tad Pilna pieeja" ,
                                                                                                   "Ja Lietotāja autentifikācijas statuss = neautentificējies, tad Ierobežota pieeja" ;
-                                                               rdfs:label "Videokonferences konfigurēšana"@lv .
+                                                               rdfs:label "Videokonferences konfigurēšana"@lv ;
+                                                               rdfs:seeAlso <https://artss.rtu.lv/repository/web/lv/patterns/videokonferences-konfiguresana> .
 
 
 ###  https://artss.rtu.lv/VideokonferencesServisaNodro%C5%A1in%C4%81t%C4%81js
