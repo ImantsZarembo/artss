@@ -531,6 +531,7 @@
         <artss:hasSolution xml:lang="lv">Pārbaudīt paroles pret zināmām nedrošām parolēm (haveibeenpwned.com u.c.)</artss:hasSolution>
         <artss:hasSolution xml:lang="lv">Rādīt ieteikumus drošu paroļu veidošanai</artss:hasSolution>
         <rdfs:label xml:lang="lv">Drošas paroles veidošana un pārbaude pacientu elektronisko datu aizsardzībai pret nesankcionētu piekļuvi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/drosas-paroles-veidosana-un-parbaude-pacientu-elektronisko-datu-aizsardzibai-pret"/>
     </owl:NamedIndividual>
     
 
@@ -567,6 +568,7 @@
         <artss:hasProblem xml:lang="lv">attālināta darba kontekstā var būt mazāk acīmredzams, vai saziņa ir bieža, efektīva un piemērota</artss:hasProblem>
         <artss:hasSolution xml:lang="lv">uzņēmuma normu ieviešana par ieteicamo sapulces/ziņojuma apmaiņas biežumu, ziņojuma garumu atbilstoši kontekstam, sapulču ieteicamo ilgumu</artss:hasSolution>
         <rdfs:label xml:lang="lv">Efektīvas komunikācijas klimats organizācijā</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/efektivas-komunikacijas-klimats-organizacija"/>
     </owl:NamedIndividual>
     
 
@@ -603,6 +605,7 @@ Ievainojamības riska līmenis</artss:hasInputParameterValue>
         <artss:hasProblem xml:lang="lv">Neveicot datortīkla un interneta pieslēguma drošības izvērtējumu, nav iespējams paredzēt identificēt ievainojamās vietas datortīklā.</artss:hasProblem>
         <artss:hasSolution xml:lang="lv">Izmantot automatizētus risinājumus nepārtrauktai drošības līmeņa kontrolei, vai veikt regulārus datortīkla un interneta pieslēguma drošības izvērtējumus</artss:hasSolution>
         <rdfs:label xml:lang="lv">Ģimenes ārsta prakses datortīkla un interneta pieslēguma drošības izvērtējums</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/gimenes-arsta-prakses-datortikla-un-interneta-piesleguma-drosibas-izvertejums"/>
     </owl:NamedIndividual>
     
 
@@ -634,6 +637,7 @@ Ievainojamības riska līmenis</artss:hasInputParameterValue>
         <artss:hasSolution xml:lang="lv">Veikt regulāru lietotāju tiesību pārskatīšanu, pārliecinoties, ka lietotājiem ir piešķirtas minimāli nepieciešamās lietotāju tiesības.</artss:hasSolution>
         <artss:hasSolution xml:lang="lv">Veikt regulāru rezerves kopiju atjaunošanas pārbaudi.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Ģimenes ārsta prakses datu drošības novērtējums - pieejas tiesības un rezerves kopijas</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/gimenes-arsta-prakses-datu-drosibas-novertejums-pieejas-tiesibas-un-rezerves-kopijas"/>
     </owl:NamedIndividual>
     
 
@@ -1128,6 +1132,7 @@ Ievainojamības riska līmenis</artss:hasInputParameterValue>
         <artss:hasSolution xml:lang="lv">Ieviest mazāko pieejas tiesību (least privilege) principu, samazinot priviliģēto lietotāju skaitu</artss:hasSolution>
         <artss:hasSolution xml:lang="lv">Veikt regulāru pieejas tiesību pārskatīšanu</artss:hasSolution>
         <rdfs:label xml:lang="lv">Priviliģēto lietotāju pārvaldības izvērtējums</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/priviligeto-lietotaju-parvaldibas-izvertejums"/>
     </owl:NamedIndividual>
     
 
@@ -1297,7 +1302,8 @@ Ievainojamības riska līmenis</artss:hasInputParameterValue>
         <artss:hasSolution xml:lang="lv">Nodrošināt ar ergonomisku darba vidi.</artss:hasSolution>
         <artss:hasSolution xml:lang="lv">Nodrošināt darbinieku ar personīgo darba staciju un apmaksāt personīgo interneta pieslēgumu.</artss:hasSolution>
         <artss:hasSolution xml:lang="lv">Nodrošināt kopējo uzņēmuma platformu attālinātajam darbam.</artss:hasSolution>
-        <rdfs:label xml:lang="lv">Tehnikā risinājuma nodrošināšana valsts iestādes vai uzņēmuma darbinieku darba pienākumu izpildei strādājot attālināti.</rdfs:label>
+        <rdfs:label xml:lang="lv">Tehniskā risinājuma nodrošināšana valsts iestādes vai uzņēmuma darbinieku darba pienākumu izpildei strādājot attālināti</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/tehnika-risinajuma-nodrosinasana-valsts-iestades-vai-uznemuma-darbinieku-darba-pienakumu"/>
     </owl:NamedIndividual>
     
 
@@ -1381,6 +1387,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem xml:lang="lv">Atkarībā no nedēļas dienas atšķiras ļaunprātīgo lietotāju aktivitāte.</artss:hasProblem>
         <artss:hasSolution xml:lang="lv">Veikt ļaunprātīgo lietotāju darbību, piemēram, potenciāli ļaunprātīgu DNS uzskaiti, un salīdzināt incidentu daudzumu atkarībā no nedēļas dienas un laika.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Uzbrukumu kalendārs</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/uzbrukumu-kalendars"/>
     </owl:NamedIndividual>
     
 
@@ -1619,6 +1626,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasSolutionElement>Iekārtas identificēšanas (log) dati</artss:hasSolutionElement>
         <artss:hasSolutionElement>Lietotāja identificēšanas dati</artss:hasSolutionElement>
         <rdfs:label xml:lang="lv">Apdraudējuma līmeņa noteikšana</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/apdraudejuma-limena-noteiksana"/>
     </owl:NamedIndividual>
     
 
@@ -1654,6 +1662,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem>Lai spētu ātri novērst incidentu, ir nepieciešams izvēlēties atbilstošāko informatīvas ziņas nosūtīšanas veidu lietotājam.</artss:hasProblem>
         <artss:hasSolution>Izvēlēties apziņošanas veidu atkarībā no incidenta steidzamības un nosūtīto ziņu skaita.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Apziņošanas paņēmiena izvēle</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/apzinosanas-panemiena-izvele"/>
     </owl:NamedIndividual>
     
 
@@ -1686,6 +1695,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem xml:lang="lv">bez nepieciešamām komunikācijas funkcijām komunikācijas efektivitāte var būt samazināta</artss:hasProblem>
         <artss:hasSolution xml:lang="lv">pārbaudīt, vai sniegtajam tehnoloģiskajam atbalstam ir atbilstošās funkcijas</artss:hasSolution>
         <rdfs:label xml:lang="lv">Atbalsta funkcija vadītājam</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/atbalsta-funkcija-vaditajam"/>
     </owl:NamedIndividual>
     
 
@@ -1800,6 +1810,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasSolution>Ignore otherwise</artss:hasSolution>
         <artss:hasSolution>Notify user if Urgency is Low or Medium and User can be identified</artss:hasSolution>
         <rdfs:label xml:lang="lv">Compromised network device: select response</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/compromised-network-device-select-response"/>
     </owl:NamedIndividual>
     
 
@@ -1843,6 +1854,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem xml:lang="lv">neapmierināti un nemotivēti darbinieki rada zemāku produktivitāti un var izraisīt darbinieku aiziešanu no uzņēmuma. Darbinieku motivēšana distances darba apstākļos var būt ļoti sarežģīta</artss:hasProblem>
         <artss:hasSolution xml:lang="lv">darbinieku noskaņojuma mērīšana katru dienu pieslēdzoties komunikācijas sistēmai un regulāras aptaujas ar rezultātu apstrādi izmantojot algoritmu</artss:hasSolution>
         <rdfs:label xml:lang="lv">Darbinieku motivacijas līmenis</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/darbinieku-motivacijas-limenis"/>
     </owl:NamedIndividual>
     
 
@@ -1894,6 +1906,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem xml:lang="lv">Ne visi lietotāji veido drošas un unikālas paroles sistēmā, pakļaujot sistēmā pieejamos datus incidenta riskam.</artss:hasProblem>
         <artss:hasSolution xml:lang="lv">Ieviest un uzspiest visiem lietotājiem izmantot divu faktoru autentifikācijas mehānismus.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Divu faktoru autentifikācija</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/divu-faktoru-autentifikacija"/>
     </owl:NamedIndividual>
     
 
@@ -1927,6 +1940,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem>Neveicot draudu līmeņa kontroli, palielinās risks, ka var notikt drošības pārkāpumi, incidenti.</artss:hasProblem>
         <artss:hasSolution>Izmantot automatizētus risinājumus draudu līmeņa kontrolei, lai nekavējoties spētu identificēt incidentus.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Draudu līmeņa kontrole</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/draudu-limena-kontrole"/>
     </owl:NamedIndividual>
     
 
@@ -1974,6 +1988,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem>Izmantojot viegli uzminamas, uzlauzamas paroles un paroles atkalizmantojot, palielinās risks, ka var notikt drošības pārkāpumi, incidenti.</artss:hasProblem>
         <artss:hasSolution>Izmantot vairāku faktoru autentifikāciju un/vai paroļu pārvaldnieku, kā arī noteikt minimālās prasības parolēm, lai paaugstinātu paroļu drošības līmeni.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Droša parole attālinātam darbam</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/drosa-parole-attalinatam-darbam"/>
     </owl:NamedIndividual>
     
 
@@ -2001,6 +2016,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasSolution xml:lang="lv">Piegādātājiem piešķirt minimālās nepieciešamās (least privilege) pieejas tiesības.</artss:hasSolution>
         <artss:hasSolution xml:lang="lv">Veikt regulāras (vismaz reizi 3 gados) pārbaudes pie piegādātājiem drošības prasību īstenošanas atbilstībai.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Drošas piegādes ķēdes izvērtējums</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/drosas-piegades-kedes-izvertejums"/>
     </owl:NamedIndividual>
     
 
@@ -2021,6 +2037,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem>Inficēta ierīce spēj inficēt arī citas tīmekļa iekārtas.</artss:hasProblem>
         <artss:hasSolution>Ja lietotāja draudu līmenis ir nezināms un steidzamība ir zema vai vidēja, tad atslēgt ierīci.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Fiziskā atvienošana</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/fiziska-atvienosana"/>
     </owl:NamedIndividual>
     
 
@@ -2189,6 +2206,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasSolution>Ja inficētā ierīce inficē arī citas tīkla ierīces --&gt; atslēgt ierīci</artss:hasSolution>
         <artss:hasSolution>Ja lietotājs nereaģē uz ziņu par incidentu 3h laikā --&gt; atslēgt ierīci</artss:hasSolution>
         <rdfs:label xml:lang="lv">Incidenta novēršanas metodes izvēle</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/incidenta-noversanas-metodes-izvele"/>
     </owl:NamedIndividual>
     
 
@@ -2219,6 +2237,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem>Liels vienlaicīgu incidentu skaits pārslogo tīklu, samazina sistēmas darbību un palielina apdraudējuma līmeni.</artss:hasProblem>
         <artss:hasSolution>Izveidot savu incidentu analizatoru, piemēram, DNS analizatoru, lai nebūtu nepieciešamība lietot publiskās datu bāzes, kas kavē laiku.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Incidentu apsteidzošā prognozēšana</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/incidentu-apsteidzosa-prognozesana"/>
     </owl:NamedIndividual>
     
 
@@ -2270,6 +2289,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem>Nenosakot un neuzraugot drošības līmeni, palielinās risks, ka var notikt drošības pārkāpumi, incidenti.</artss:hasProblem>
         <artss:hasSolution>Izmantot automatizētus risinājumus drošības līmeņa kontrolei, lai nekavējoties reagētu uz izmaiņām.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Informācijas drošības līmeņa noteikšana</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/informacijas-drosibas-limena-noteiksana"/>
     </owl:NamedIndividual>
     
 
@@ -2324,6 +2344,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem>Nenodrošinot pietiekamā līmenī attālinātā darba apstākļos informācijas pieejamību, tiek ietekmēts veiktais darbs un tā efektivitāte.</artss:hasProblem>
         <artss:hasSolution>Strukturēti organizēt lietotāju tiesību pārvaldību, lai informācijas pieejamība tiktu pārvaldīta un monitorēta.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Informācijas pieejamības līmeņa paaugstināšana</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/informacijas-pieejamibas-limena-paaugstinasana"/>
     </owl:NamedIndividual>
     
 
@@ -2724,6 +2745,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasSolution>Pielāgojas pacientu vairākuma lietotnēm un iekārtām</artss:hasSolution>
         <artss:hasSolution>Servisa nodrošināšanai izmanto VM rekomendācijas ārsta praksēm</artss:hasSolution>
         <rdfs:label xml:lang="lv">Pacienta veselības stāvokļa attālināts monitorings</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/pacienta-veselibas-stavokla-attalinats-monitorings"/>
     </owl:NamedIndividual>
     
 
@@ -2832,6 +2854,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasKeyword rdf:resource="https://artss.rtu.lv/P%C4%81rraudz%C4%ABba"/>
         <artss:hasProblem>Sekojot lietotāja aktivitātei un pastirpināti uzraugot aizdomīgos lietotājus, ir iemācīties atkarībā no lietotāja uzvedības novērst incidenta rašanos.</artss:hasProblem>
         <rdfs:label xml:lang="lv">Pastiprinātā uzraudzība</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/pastiprinata-uzraudziba"/>
     </owl:NamedIndividual>
     
 
@@ -2863,6 +2886,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasInputParameterValue>Stundas</artss:hasInputParameterValue>
         <artss:hasProblem>Incidentu uzrašanās notiek dinamiski un ir svarīgi laicīgi tos identificēt, tādēļ jāizvēlas atbilstošs periods tīkla apskatei.</artss:hasProblem>
         <rdfs:label xml:lang="lv">Periodiskā apskate</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/periodiska-apskate"/>
     </owl:NamedIndividual>
     
 
@@ -2914,6 +2938,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem>Nenosakot un neuzraugot personālā datora izmantošana darba uzdevumu veikšanai, palielinās risks, ka var notikt drošības pārkāpumi, incidenti.</artss:hasProblem>
         <artss:hasSolution>Noteikt prasības personāla datoru izmantošanai darba uzdevumu veikšanai un nodrošināt to izpildes uzraudzību.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Personālā datora izmantošana darba uzdevumu veikšanai</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/personala-datora-izmantosana-darba-uzdevumu-veiksanai"/>
     </owl:NamedIndividual>
     
 
@@ -3183,6 +3208,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem>Neuzraugot resursu darbību un nenosakot prasības darbam ar resursiem, palielinās risks, ka var rasties problēmas tehnisko resursu izmantošanā.</artss:hasProblem>
         <artss:hasSolution>Noteikt prasības resursu izmantošanai un nodrošināt to izpildes uzraudzību.</artss:hasSolution>
         <rdfs:label xml:lang="lv">Tehniskās problēmas darba vietā</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/tehniskas-problemas-darba-vieta"/>
     </owl:NamedIndividual>
     
 
@@ -3215,6 +3241,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasProblem>Sabiedriskajā transportā ir jāmazina cilvēku drūzmēšanās gan transportlīdzeklī, gan pieturvietās</artss:hasProblem>
         <artss:hasSolution>Pielāgot braukšanas ātrumu, lai minimizētu nobīdes no maršruta izpildes plāna un pārklāšanos ar citiem transportlīdzekļiem</artss:hasSolution>
         <rdfs:label xml:lang="lv">Transportlīdzekļa ātruma pielāgošana</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/transportlidzekla-atruma-pielagosana"/>
     </owl:NamedIndividual>
     
 
@@ -3325,6 +3352,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasSolution>Izvēlas videokonferenču rīku ar augstu vērtējumu un atbilstošu sertifikācijas prasībām</artss:hasSolution>
         <artss:hasSolution>Lietotāju vērtējuma novērtēšanai izmanto Google Play un Apple App Store</artss:hasSolution>
         <rdfs:label xml:lang="lv">Videokonferenču rīku kvalificēšana</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/videokonferencu-riku-kvalificesana"/>
     </owl:NamedIndividual>
     
 
@@ -3350,6 +3378,7 @@ Svētdiena</artss:hasInputParameterValue>
         <artss:hasSolution>Ja Lietotāja autentifikācijas statuss = autentificējies, tad Pilna pieeja</artss:hasSolution>
         <artss:hasSolution>Ja Lietotāja autentifikācijas statuss = neautentificējies, tad Ierobežota pieeja</artss:hasSolution>
         <rdfs:label xml:lang="lv">Videokonferences konfigurēšana</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://artss.rtu.lv/repository/web/lv/patterns/videokonferences-konfiguresana"/>
     </owl:NamedIndividual>
     
 
